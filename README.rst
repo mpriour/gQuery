@@ -3,12 +3,21 @@
 GeoQuery
 ======== 
 
-This is what we want. 
 
+Jquery 1.3.2 ? 
+
+download at 
+------------ 
+http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js
+
+
+
+
+This is what we want. 
+--------------------- 
 
 $('#map').map({ 
     'point' : [ [point], [point], [point] ], 
-    
     'onPopup' : function(feature)  { 
         
         },
