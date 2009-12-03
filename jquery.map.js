@@ -8,7 +8,8 @@ Ivan Willig
        'center':  [0,0],
        'zoomLevel': 5,  
        'projection': 900913,
-       'displayProjection': 4326  
+       'displayProjection': 4326, 
+       'baseLayer': 'openstreetmap'
    }; 
    var options = $.extend(defaults,options);
    var MapOptions = { 
@@ -21,11 +22,21 @@ Ivan Willig
    // kind of hacky.. but works
    var div = this[0].id ;   
    var map = new OpenLayers.Map(div,MapOptions);
-   var layer = new OpenLayers.Layer.WMS(
-       "openstreetmap","http://maps.opengeo.org/geowebcache/service/wms",
-       {layers: 'openstreetmap', format: 'image/png' },
-       { }
-   );
+   if (options.baselayer == 'openstreetmap') { 
+       var layer = new OpenLayers.Layer.WMS(
+           "openstreetmap","http://maps.opengeo.org/geowebcache/service/wms",
+           {layers: 'openstreetmap', format: 'image/png' },
+         { }
+       );
+   } 
+   if (options.baselayer == 'bluemarble') { 
+      var layer = new OpenLayers.Layer.WMS(
+           "bluemarble","http://maps.opengeo.org/geowebcache/service/wms",
+           {layers: 'bluemarble', format: 'image/png' },
+         { }
+       );
+   } 
+
    map.addLayer(layer);
    var Point = new OpenLayers.LonLat(options.center[0],options.center[1]); 
    Point.transform(new OpenLayers.Projection("EPSG:4326"), new OpenLayers.Projection("EPSG:900913"));
