@@ -6,15 +6,27 @@
         <script type="text/javascript" src="jquery.map.js"></script>        
         <script type="text/javascript">
          
-        function showPopup(feature) { 
-            //do something with a popup
+        function showPopup(event) { 
+            console.log("selected feature");
+            console.log(event);
+        }; 
+
+        function closePopup(event) {
+            console.log("feature unselect"); 
+            console.log(event); 
         }; 
 
          $(document).ready(function(){
                  $('#map').map({ 
                       'center': [-73,43], 
                       'baselayer' : 'bluemarble', 
-                      'url' : './requested.kml' 
+                      'url' : './requested.kml', 
+                      onClick: function(event) { 
+                             showPopup(event); 
+                             },
+                      onUnclick: function(event) { 
+                            closePopup(event);   
+                          }    
                       }) ;   
             });
         /* 

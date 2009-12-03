@@ -58,12 +58,18 @@ Ivan Willig
              }) }); 
         map.addLayer(vectorFeature);             
         var selectCtrl  = new OpenLayers.Control.SelectFeature(vectorFeature);
-        function onFeatureSelect(event) { 
-            console.log(event); 
+
+        if(options.onClick != null) { 
+            var onFeatureSelect = options.onClick;    
+        } 
+        else {
+            console.log("onclick is null");  
+            var onFeatureSelect; 
+        } 
+        if (options.onUnclick != null) { 
+            var onFeatureUnselect = options.onUnclick; 
         }; 
-        function onFeatureUnselect(event) { 
-            console.log(event); 
-        }; 
+
         vectorFeature.events.on({
                 "featureselected": onFeatureSelect,
                 "featureunselected": onFeatureUnselect
