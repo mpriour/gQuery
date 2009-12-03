@@ -6,15 +6,17 @@
         <script type="text/javascript" src="jquery.map.js"></script>        
         <script type="text/javascript"> 
          $(document).ready(function(){
-           $('#map').map() ;   
+                 $('#map').map({ 
+                     'center': [-73,43,5] 
+                     }) ;   
             });
  
         </script>
         <style type="text/css">
         #map {
             margin: 5px auto ; 
-            height: 500px; 
-            width: 500px; 
+            height: 100%; 
+            width: 100%; 
             background: #eee ;
              }  
 
