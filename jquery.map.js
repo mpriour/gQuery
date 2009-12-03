@@ -6,6 +6,8 @@ Ivan Willig
    $.fn.map = function(options) {
    var defaults = { 
        'center':  [0,0],
+       'url' : null,
+       'format' : null,  
        'zoomLevel': 5,  
        'projection': 900913,
        'displayProjection': 4326, 
@@ -36,8 +38,56 @@ Ivan Willig
          { }
        );
    } 
-
    map.addLayer(layer);
+   if (options.url != null) { 
+        var fileURL = options.url; 
+        name = "Vector Feature" ;
+
+        function getFormat() { 
+            var format = new OpenLayers.Format.KML(); 
+            return format; 
+        } ; 
+        var vectorFeature = new OpenLayers.Layer.Vector(name,{ 
+             projection : new OpenLayers.Projection("EPSG:4326"),
+             strategies: [new OpenLayers.Strategy.Fixed()],
+             protocol: new OpenLayers.Protocol.HTTP({
+                 url:  fileURL, 
+                 format: getFormat(), 
+             }) }); 
+        map.addLayer(vectorFeature);             
+        var selectCtrl  = new OpenLayers.Control.SelectFeature(vectorFeature);
+        function onFeatureSelect(event) { 
+            console.log(event); 
+        }; 
+        function onFeatureUnselect(event) { 
+            console.log(event); 
+        }; 
+        vectorFeature.events.on({
+                "featureselected": onFeatureSelect,
+                "featureunselected": onFeatureUnselect
+            });
+
+        map.addControl(selectCtrl);
+        selectCtrl.activate();
+
+        /* 
+
+        if (options.format == null){
+            alert(url); 
+        };
+        if(options.format == 'kml') { 
+        // add kml file using url 
+        }; 
+        if(options.format = 'geojson') { 
+        // add gejoson file using url 
+         };
+        if(options.format = 'wfs') { 
+        // add a wfs layer 
+        };
+        */
+
+   }
+   map.addControl( new OpenLayers.Control.LayerSwitcher()); 
    var Point = new OpenLayers.LonLat(options.center[0],options.center[1]); 
    Point.transform(new OpenLayers.Projection("EPSG:4326"), new OpenLayers.Projection("EPSG:900913"));
    map.setCenter(new OpenLayers.LonLat(Point.lon,Point.lat),options.zoomLevel);

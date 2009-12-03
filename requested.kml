@@ -1,0 +1,5408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1" 
+     xmlns:atom="http://www.w3.org/2005/Atom"
+>
+<Document>
+
+
+
+  <Placemark id="168">
+
+    <name>Food Bazaar/Hipster Headquarters</name>
+    <address>16 Manhattan Ave, Brooklyn, NY 11206</address>
+
+    <description>We used to lock our bikes in the stairwells until they got too clogged up.  There&#39;s only a tree and a street sign in front of the building and they always are taken with bikes I&#39;m not sure anyone rides.  We&#39;re also right across from the huge Food Bazaar supermarket that many Brooklynites bike to.</description>	
+    <Snippet>We used to lock our bikes in the stairwells until they got ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9441291,40.7025399,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/11-IMG_0734_jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Dec. 3, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="167">
+
+    <name>Fórum Romeu Correia</name>
+    <address>739-831 Lorimer St, Brooklyn, NY 11222, USA</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.9505387972,40.7198834353,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Dec. 2, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="165">
+
+    <name>Work Location</name>
+    <address>148 Lafayette st.</address>
+
+    <description>We need a rack here
+</description>	
+    <Snippet>We need a rack here</Snippet>	
+
+    
+    <Point><coordinates>-73.9995481,40.7195453,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value></value></Data>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Dec. 1, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="164">
+
+    <name>my house</name>
+    <address>301 water st brooklyn, ny</address>
+
+    <description>enhance my cycling convenience</description>	
+    <Snippet>enhance my cycling convenience</Snippet>	
+
+    
+    <Point><coordinates>-73.981859,40.703112,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Dec. 1, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="163">
+
+    <name>De Wine Spot.</name>
+    <address>428 Lorimer street Brooklyn NY</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.948424,40.709614,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>twitter</value></Data>
+      
+
+      <Data name="date"><value>Nov. 30, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="162">
+
+    <name>Residential Buildings and Peter Lugars</name>
+    <address>158 Broadway, Brooklyn, NY 11211</address>
+
+    <description>There are a large number of residential buildings that have no access to a bike rack.  This is a main commercial block with need for bike racks.</description>	
+    <Snippet>There are a large number of residential buildings that have no access ...</Snippet>	
+
+    
+    <Point><coordinates>-73.963008,40.709915,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 30, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="161">
+
+    <name>Tiny Cup</name>
+    <address>275 Nostrand Ave, Brooklyn, NY 11216, USA</address>
+
+    <description>Only one store-provided rack with space for four to five bikes at most.</description>	
+    <Snippet>Only one store-provided rack with space for four to five bikes at ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9511610697,40.6893671663,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 29, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="160">
+
+    <name>food place</name>
+    <address>520-522 Metropolitan Ave, Brooklyn, NY 11211, USA</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.9515545026,40.714063,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 28, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="159">
+
+    <name>Royal Shakespeare Theatre</name>
+    <address>RSC Theatre, Waterside, Stratford upon Avon, UK</address>
+
+    <description>Popular destination, currently being refurbished, racks to be in place for opening.</description>	
+    <Snippet>Popular destination, currently being refurbished, racks to be in place for opening.</Snippet>	
+
+    
+    <Point><coordinates>-1.704359,52.191062,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 28, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="158">
+
+    <name>Outside the library, on Henley Street</name>
+    <address>henley street stratford upon avon, uk</address>
+
+    <description>At the moment many cycles are secured to the railings, proper racks as used elsewhere in the town, would be much better for all </description>	
+    <Snippet>At the moment many cycles are secured to the railings, proper racks ...</Snippet>	
+
+    
+    <Point><coordinates>-1.707722,52.193533,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 28, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="157">
+
+    <name>NYU Medical School</name>
+    <address>564 1st Avenue, New York, NY10016</address>
+
+    <description>So many cycling commuters and residents but so few racks near the building.</description>	
+    <Snippet>So many cycling commuters and residents but so few racks near the ...</Snippet>	
+
+    
+    <Point><coordinates>-73.974281,40.742437,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 27, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="156">
+
+    <name>Everywhere</name>
+    <address>739-831 Lorimer St, Brooklyn, NY 11222, USA</address>
+
+    <description>Parking Meter Retrofit:
+http://pqliving.com/?p=6452</description>	
+    <Snippet>Parking Meter Retrofit: http://pqliving.com/?p=6452</Snippet>	
+
+    
+    <Point><coordinates>-73.9506389,40.7216794,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 27, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="155">
+
+    <name>Local businesses and residences.</name>
+    <address>120 Thames St, Brooklyn, NY 11237, USA</address>
+
+    <description>Many Brooklynites commute to Manhattan by bike.  In my building alone there are 16 cyclists and no places for visitors or people in the area to park.  In an age when everyone wants to go &quot;green&quot;, small things like bike racks would go a long way to promote a healthier and cleaner envirorment.</description>	
+    <Snippet>Many Brooklynites commute to Manhattan by bike. In my building alone there ...</Snippet>	
+
+    
+    <Point><coordinates>-73.927955,40.705516,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 25, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="154">
+
+    <name>andrew heiskell public library</name>
+    <address>40 west 20th st, New York, </address>
+
+    <description>there are none!</description>	
+    <Snippet>there are none!</Snippet>	
+
+    
+    <Point><coordinates>-73.993398,40.740496,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 25, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="153">
+
+    <name>my home</name>
+    <address>227 east 2nd st</address>
+
+    <description>there are so many bicyclists on my block that even the most conscientious are now locking to our precious new street trees, we just have nowhere to lock up.</description>	
+    <Snippet>there are so many bicyclists on my block that even the most ...</Snippet>	
+
+    
+    <Point><coordinates>-73.982603,40.721431,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 25, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="152">
+
+    <name>Mesa Coyoacan.</name>
+    <address>372 Graham Ave, Brooklyn, NY</address>
+
+    <description>There are a few restaurants on this strip and no rack on the block</description>	
+    <Snippet>There are a few restaurants on this strip and no rack on ...</Snippet>	
+
+    
+    <Point><coordinates>-73.944275,40.715511,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 24, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="151">
+
+    <name>Community garden</name>
+    <address>191 S 2nd St, Brooklyn, NY 11211, USA</address>
+
+    <description>popular community garden. address is approximate </description>	
+    <Snippet>popular community garden. address is approximate</Snippet>	
+
+    
+    <Point><coordinates>-73.959918,40.712699,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/photo______________jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 24, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="150">
+
+    <name>public space</name>
+    <address>210 Kent ave, Brooklyn ny</address>
+
+    <description>Popular gallery and venue.  Multiple suitable locations nearby. 
+</description>	
+    <Snippet>Popular gallery and venue. Multiple suitable locations nearby.</Snippet>	
+
+    
+    <Point><coordinates>-73.9581731,40.7236594,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/photo_____________jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 23, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="149">
+
+    <name>Public space</name>
+    <address>210 Kent ave Brooklyn, ny</address>
+
+    <description>Popular venue, multiple suitable locations nearby
+</description>	
+    <Snippet>Popular venue, multiple suitable locations nearby</Snippet>	
+
+    
+    <Point><coordinates>-73.9581731,40.7236594,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/photo____________jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 23, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="148">
+
+    <name>Secret project robot</name>
+    <address>210 Kent ave, Brooklyn, ny</address>
+
+    <description>Popular gallery and venue. Multiple suitable locations nearby.
+</description>	
+    <Snippet>Popular gallery and venue. Multiple suitable locations nearby.</Snippet>	
+
+    
+    <Point><coordinates>-73.9581731,40.7236594,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/photo___________jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 23, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="147">
+
+    <name>Capital One Bank, BK Industries, Peter Luger</name>
+    <address>195 broadway, Brooklyn NY</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.961854,40.710035,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>twitter</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="146">
+
+    <name>Greendome park (part of McCarren)</name>
+    <address>Union Avenue and Driggs Avenue, brooklyn,ny</address>
+
+    <description>between Driggs &amp; Roebling. Farmers market &amp; CSA</description>	
+    <Snippet>between Driggs &amp; Roebling. Farmers market &amp; CSA</Snippet>	
+
+    
+    <Point><coordinates>-73.9526863,40.7204561,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_1992__JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="145">
+
+    <name>McCarren Park Greenmarket Location 2</name>
+    <address>Union Avenue and Driggs Avenue, brooklyn,ny</address>
+
+    <description>between Driggs &amp; Roebling. Need racks for CSA &amp; farmers market</description>	
+    <Snippet>between Driggs &amp; Roebling. Need racks for CSA &amp; farmers market</Snippet>	
+
+    
+    <Point><coordinates>-73.9526863,40.7204561,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_1995_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="144">
+
+    <name>McCarren Park Greenmarket</name>
+    <address>Union Avenue and Driggs Avenue, brooklyn,ny</address>
+
+    <description>Greenmarket &amp; CSA here. Bike racks needed.</description>	
+    <Snippet>Greenmarket &amp; CSA here. Bike racks needed.</Snippet>	
+
+    
+    <Point><coordinates>-73.9526863,40.7204561,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_1994_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="143">
+
+    <name>word bookstore</name>
+    <address>126 Franklin street, brooklyn ny</address>
+
+    <description>on Milton Street side</description>	
+    <Snippet>on Milton Street side</Snippet>	
+
+    
+    <Point><coordinates>-73.9571859,40.729068,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2036_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="142">
+
+    <name>Brooklyn Label (cafe)</name>
+    <address>202 Franklin St, Brooklyn, NY 11222, USA</address>
+
+    <description>There are not enough bike racks in this area, and many cyclists.</description>	
+    <Snippet>There are not enough bike racks in this area, and many cyclists.</Snippet>	
+
+    
+    <Point><coordinates>-73.9577056597,40.7323396825,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="141">
+
+    <name>Red Star &amp; other establishments</name>
+    <address>West Street &amp; Greenpoint Avenue</address>
+
+    <description>need bike racks in this area because many people come here</description>	
+    <Snippet>need bike racks in this area because many people come here</Snippet>	
+
+    
+    <Point><coordinates>-73.9592533,40.7297108,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2045__JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="140">
+
+    <name>Red Star bar</name>
+    <address>37 Greenpoint Avenue, brooklyn ny</address>
+
+    <description>Many bikes park here, need racks</description>	
+    <Snippet>Many bikes park here, need racks</Snippet>	
+
+    
+    <Point><coordinates>-73.958938,40.729987,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2045_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="139">
+
+    <name>Coco 66 and other bar/restaurants (across street)</name>
+    <address>37 Greenpoint Avenue, brooklyn ny</address>
+
+    <description>Many bars, resteraunts &amp; bikes on this block</description>	
+    <Snippet>Many bars, resteraunts &amp; bikes on this block</Snippet>	
+
+    
+    <Point><coordinates>-73.958938,40.729987,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2040_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="136">
+
+    <name>Dry cleaners/ Near L train</name>
+    <address>230 Bushwick ave, brooklyn, ny</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.9399118,40.7079615,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/photo4_jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="137">
+
+    <name>Broouwerij Lane</name>
+    <address>78 Greenpoint Avenue, brooklyn ny</address>
+
+    <description>Many bikes are on this block! Need racks!!!</description>	
+    <Snippet>Many bikes are on this block! Need racks!!!</Snippet>	
+
+    
+    <Point><coordinates>-73.9578554,40.7298279,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2039_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="134">
+
+    <name>Word Bookstore</name>
+    <address>126 Franklin Avenue</address>
+
+    <description>On Milton Street side</description>	
+    <Snippet>On Milton Street side</Snippet>	
+
+    
+    <Point><coordinates>-80.856576,40.8958923,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="138">
+
+    <name>Enid&#39;s</name>
+    <address>560 Driggs Ave, Brooklyn, Ny</address>
+
+    <description>In this neighborhood, there are two bars and many cyclists come and lock up to everything: trees, polls, and fences. </description>	
+    <Snippet>In this neighborhood, there are two bars and many cyclists come and ...</Snippet>	
+
+    
+    <Point><coordinates>-73.956871,40.716964,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2011_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="133">
+
+    <name>Greenpoint YMCA - Location 2</name>
+    <address>Meserole Avenue &amp; Lorimer Street, brooklyn ny</address>
+
+    <description>Another rack can be fit in here</description>	
+    <Snippet>Another rack can be fit in here</Snippet>	
+
+    
+    <Point><coordinates>-73.953552,40.7268233,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2027_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="132">
+
+    <name>Matchless &amp; Enids</name>
+    <address>557 Driggs Ave, Brooklyn, Ny</address>
+
+    <description>Between these two bars, many cyclist lock up to trees, fences and other objects and there are NO bike racks in this area.</description>	
+    <Snippet>Between these two bars, many cyclist lock up to trees, fences and ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9563919,40.716771,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2007_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="131">
+
+    <name>Greenpoint YMCA - Location 3</name>
+    <address>Meserole Avenue &amp; Lorimer Street, brooklyn ny</address>
+
+    <description>A bike rack can be fit into here... need as many as possible for Greenpoint YMCA</description>	
+    <Snippet>A bike rack can be fit into here... need as many as ...</Snippet>	
+
+    
+    <Point><coordinates>-73.953552,40.7268233,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2025_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="135">
+
+    <name>De wine spot, </name>
+    <address>48-58 Ten Eyck St, Brooklyn, NY 11206, USA</address>
+
+    <description>around corner</description>	
+    <Snippet>around corner</Snippet>	
+
+    
+    <Point><coordinates>-73.9485223693,40.7096863355,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/photo3_jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="129">
+
+    <name>Greenpoint Post Office</name>
+    <address>Meserole Avenue &amp; Guernsey street, brooklyn ny</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.9543984,40.7265376,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2023_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="130">
+
+    <name>Pete&#39;s Candy Store</name>
+    <address>715 Lorimer St, Brooklyn, ny</address>
+
+    <description>there are very few options to park in this area, 715 lorimer is one of the few options for a bike rack.</description>	
+    <Snippet>there are very few options to park in this area, 715 lorimer ...</Snippet>	
+
+    
+    <Point><coordinates>-73.950334,40.718387,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2005_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="128">
+
+    <name>Angel Street Thrift Shop</name>
+    <address>67 Guernsey Street , brooklyn, ny</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.953138,40.723521,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2020_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="126">
+
+    <name>Five Leaves Restaurant / Lokal Restaurant - Lorimer side</name>
+    <address>18 bedford avenue, brooklyn ny</address>
+
+    <description>Lorimer street side, 5 leaves</description>	
+    <Snippet>Lorimer street side, 5 leaves</Snippet>	
+
+    
+    <Point><coordinates>-73.9516756,40.7234437,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2019_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="127">
+
+    <name>Pete&#39;s Candy Store</name>
+    <address>59 Richardson, Brooklyn, NY</address>
+
+    <description>While most of the sidewalks are narrow, richardson st is the best option.</description>	
+    <Snippet>While most of the sidewalks are narrow, richardson st is the best ...</Snippet>	
+
+    
+    <Point><coordinates>-73.949684,40.718544,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2002_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="125">
+
+    <name>Five Leaves Restaurant / Lokal Restaurant</name>
+    <address>18 bedford avenue, brooklyn ny</address>
+
+    <description>Many bikes are here all the time, need some racks</description>	
+    <Snippet>Many bikes are here all the time, need some racks</Snippet>	
+
+    
+    <Point><coordinates>-73.9516756,40.7234437,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2016_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="124">
+
+    <name>Williamsburg/Greenpoint Greenmarket / Park</name>
+    <address>631-641 Union Ave, Brooklyn, NY 11211, USA</address>
+
+    <description>On Saturdays this area is swarmed with bikes at the Greenmarket.</description>	
+    <Snippet>On Saturdays this area is swarmed with bikes at the Greenmarket.</Snippet>	
+
+    
+    <Point><coordinates>-73.9526309202,40.7197614631,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_1992_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="123">
+
+    <name>Grand St. L stop, near Chase Bank</name>
+    <address>819 Bushwick Ave, Brooklyn, NY 11211, USA</address>
+
+    <description>There are next to no bike racks at this intersection.</description>	
+    <Snippet>There are next to no bike racks at this intersection.</Snippet>	
+
+    
+    <Point><coordinates>-73.940475149,40.7121418252,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/photo2_jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="122">
+
+    <name>near Roebling Tea room</name>
+    <address>336 Metropolitan</address>
+
+    <description>Photo to come</description>	
+    <Snippet>Photo to come</Snippet>	
+
+    
+    <Point><coordinates>-73.9568314,40.7142824,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="121">
+
+    <name>El retorno</name>
+    <address>191 Graham ave. Brooklyn ny</address>
+
+    <description>
+Sent from my iPhone
+</description>	
+    <Snippet>Sent from my iPhone</Snippet>	
+
+    
+    <Point><coordinates>-73.94372,40.708544,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/photo__________jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="120">
+
+    <name>Krystal Health next to Graham bike store</name>
+    <address>180 Graham Brooklyn NY</address>
+
+    <description>
+</description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.942958,40.707899,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/photo_________jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="119">
+
+    <name>Zukkies</name>
+    <address>279 Bushwick ave Brooklyn ny</address>
+
+    <description>Sent from my iPhone
+</description>	
+    <Snippet>Sent from my iPhone</Snippet>	
+
+    
+    <Point><coordinates>-73.9396283,40.7065367,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/photo________jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="118">
+
+    <name>Khims</name>
+    <address>258 Bushwick ave, brooklyn ny</address>
+
+    <description>O
+
+Sent from my iPhone
+</description>	
+    <Snippet>O Sent from my iPhone</Snippet>	
+
+    
+    <Point><coordinates>-73.940044,40.7071309,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/photo_______jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="117">
+
+    <name>Bushwick pita palace</name>
+    <address>243 Bushwick Ave, Brooklyn, NY 11206, USA</address>
+
+    <description>Sent from my iPhone
+</description>	
+    <Snippet>Sent from my iPhone</Snippet>	
+
+    
+    <Point><coordinates>-73.939714746,40.707534266,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/photo______jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="116">
+
+    <name>L subway stop</name>
+    <address>223 montrose avenue, Brooklyn NY</address>
+
+    <description>
+</description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.940177,40.707817,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/photo_____jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="115">
+
+    <name>Public space</name>
+    <address>210 Kent ave Brooklyn, ny</address>
+
+    <description>Art space and venue
+</description>	
+    <Snippet>Art space and venue</Snippet>	
+
+    
+    <Point><coordinates>-73.9581731,40.7236594,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/photo____jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="114">
+
+    <name>Dry cleaners/l train</name>
+    <address>230 Bushwick ave</address>
+
+    <description>Sent from my iPhone
+</description>	
+    <Snippet>Sent from my iPhone</Snippet>	
+
+    
+    <Point><coordinates>-73.9399118,40.7079615,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/photo___jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="113">
+
+    <name>De wine spot</name>
+    <address>48 ten eyck</address>
+
+    <description>
+Sent from my iPhone
+</description>	
+    <Snippet>Sent from my iPhone</Snippet>	
+
+    
+    <Point><coordinates>-74.3500349,40.5665415,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/photo__jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="112">
+
+    <name>Driggs L Stop</name>
+    <address>552 driggs ave Brooklyn ny</address>
+
+    <description>Opposite this address there is a of space for the train station racks
+
+**Operation Mobile**
+</description>	
+    <Snippet>Opposite this address there is a of space for the train station ...</Snippet>	
+
+    
+    <Point><coordinates>-73.956563,40.717249,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/photo_jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="106">
+
+    <name>Spuyten Duyvil and Control Room</name>
+    <address>361 Metropolitan Ave, Brooklyn, NY</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.9559715,40.7140936,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="104">
+
+    <name>Huckleberry Bar</name>
+    <address>588 Grand St, Brooklyn, NY</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.948289,40.7109219,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>twitter</value></Data>
+      
+
+      <Data name="date"><value>Nov. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="103">
+
+    <name>Hotel Delmano is a very very popular venue</name>
+    <address>82 Berry St, New York, NY</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.958123,40.719767,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>twitter</value></Data>
+      
+
+      <Data name="date"><value>Nov. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="98">
+
+    <name>school, residential bldg, new construction.</name>
+    <address>68 garden street, brooklyn, ny, 11206</address>
+
+    <description>for local residents, deliveries, school children, etc</description>	
+    <Snippet>for local residents, deliveries, school children, etc</Snippet>	
+
+    
+    <Point><coordinates>-73.9364625,40.7005648,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="97">
+
+    <name>Mr. Kiwi&#39;s</name>
+    <address>946-958 Broadway, Brooklyn, NY 11206, USA</address>
+
+    <description>Grocery Store</description>	
+    <Snippet>Grocery Store</Snippet>	
+
+    
+    <Point><coordinates>-73.9349677221,40.6969262887,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 19, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="101">
+
+    <name>Bike rack at Cafe Grumpy</name>
+    <address>183 Meserole Ave, New York, NY 11222</address>
+
+    <description>Need a bike rack at cafe</description>	
+    <Snippet>Need a bike rack at cafe</Snippet>	
+
+    
+    <Point><coordinates>-73.941411,40.720011,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/226641423_ea56ecaa17____jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>seeclickfix</value></Data>
+      
+
+      <Data name="date"><value>Nov. 19, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="96">
+
+    <name>scientific laboratories music rehearsal studios</name>
+    <address>8 meserole ave, brooklyn, ny 11222</address>
+
+    <description>Music studio with dozens of band rehearsing at any one time, unfortunately there is no room for bikes inside and very few of the city signs that people use to lock bikes in the absence of bike racks.</description>	
+    <Snippet>Music studio with dozens of band rehearsing at any one time, unfortunately ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9571571,40.7256136,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/meserole_png_100x100_q85.jpg</value></Data>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 19, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="95">
+
+    <name>Goodbye Blue Monday</name>
+    <address>1075-1077 Broadway, Brooklyn, NY 11221, USA</address>
+
+    <description>High bike traffic area and not a single bike rack</description>	
+    <Snippet>High bike traffic area and not a single bike rack</Snippet>	
+
+    
+    <Point><coordinates>-73.930912222,40.6945673074,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 18, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="94">
+
+    <name>Monster Island</name>
+    <address>37-49 Metropolitan Ave, Brooklyn, NY 11211, USA</address>
+
+    <description>Racks on Metropolitan ave could aid art events, employees and artists for the building</description>	
+    <Snippet>Racks on Metropolitan ave could aid art events, employees and artists for ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9647404,40.7175586,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/Metropolitan_ave_and_Kent_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 16, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="93">
+
+    <name>Secret Project Room</name>
+    <address>210 Kent Ave, Brooklyn, NY 11211, USA</address>
+
+    <description>There are no bike racks anywhere near this building. Requests to the city have been made and bike racks have not materialized. The building is marked as 210 Kent Ave and 47 Metropolitan. More than one rack would be used and appreciated. </description>	
+    <Snippet>There are no bike racks anywhere near this building. Requests to the ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9581731,40.7236594,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 16, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="92">
+
+    <name>Khim&#39;s Market</name>
+    <address>260 Bushwick Ave.</address>
+
+    <description>Many local residents ride their bikes to shop for groceries at Khim&#39;s, yet there is no bike rack or permanent fixture to securely lock our bikes to. I think adding a bike rack or two would make a big difference in the Bushwick bicycle community because Khim&#39;s is a part of our daily lives.</description>	
+    <Snippet>Many local residents ride their bikes to shop for groceries at Khim&#39;s, ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9397708,40.7071101,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 16, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="91">
+
+    <name>Lutheran Hospital</name>
+    <address>150 55th St, Brooklyn NY</address>
+
+    <description>Bike racks are needed here so employees and patients alike can come and park. There is also a city greenmarket here on Thursdays that would benefit from a bike rack. </description>	
+    <Snippet>Bike racks are needed here so employees and patients alike can come ...</Snippet>	
+
+    
+    <Point><coordinates>-74.0210078,40.6469918,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 11, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="90">
+
+    <name>Upper West Side Whole Foods</name>
+    <address>97th St. and Columbus Ave. ny ny</address>
+
+    <description>97th St., right outside Whole Foods features wide concrete sidewalks. It seems like a natural place to put some bicycle racks.</description>	
+    <Snippet>97th St., right outside Whole Foods features wide concrete sidewalks. It seems ...</Snippet>	
+
+    
+    <Point><coordinates>-73.967012,40.79356,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 10, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="89">
+
+    <name>Clinton Hill Co-ops</name>
+    <address>193 clinton avenue, brooklyn, ny 11205</address>
+
+    <description>500 + apartments and only 2 lousy bike racks. </description>	
+    <Snippet>500 + apartments and only 2 lousy bike racks.</Snippet>	
+
+    
+    <Point><coordinates>-73.9685615,40.6919832,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 9, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="88">
+
+    <name>Wine Store</name>
+    <address>428 Lorimer St, Brooklyn, NY 11206, USA</address>
+
+    <description>This is not a correct image</description>	
+    <Snippet>This is not a correct image</Snippet>	
+
+    
+    <Point><coordinates>-73.9485303889,40.7095848148,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/P1010031_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 9, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="87">
+
+    <name>Tops on the Waterfront</name>
+    <address>89 N 6th St, brooklyn ny</address>
+
+    <description>The rack in front is always full!</description>	
+    <Snippet>The rack in front is always full!</Snippet>	
+
+    
+    <Point><coordinates>-73.9602589,40.718845,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 5, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="86">
+
+    <name>Subway entrance!</name>
+    <address>55-77 Bogart St, Brooklyn, NY 11206, USA</address>
+
+    <description>There are already some bike racks on Bogart -- thanks DOT! -- but they&#39;re always full and we need several more right at the Bogart Street entrance to the Morgan L stop for commuters who live further into Bushwick.</description>	
+    <Snippet>There are already some bike racks on Bogart -- thanks DOT! -- ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9335515157,40.7060441862,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 5, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="85">
+
+    <name>The Brooklyn Kitchen Labs/The Meat Hook</name>
+    <address>100 Frost st. </address>
+
+    <description>This is a new store, butchershop, cooking school and event space. A lot of bike riders will be headed here. AND there&#39;s parking under the BQE for cars -- why make it more a hassle to bike than to drive to get your local meat, bulk grains and measuring cups?</description>	
+    <Snippet>This is a new store, butchershop, cooking school and event space. A ...</Snippet>	
+
+    
+    <Point><coordinates>-73.954344,40.714063,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 5, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="84">
+
+    <name>El Beit Cafe</name>
+    <address>156 Bedford Ave, Brooklyn, NY 11211, USA</address>
+
+    <description>Popular coffee spot, not enough bike parking.</description>	
+    <Snippet>Popular coffee spot, not enough bike parking.</Snippet>	
+
+    
+    <Point><coordinates>-73.957042,40.718746,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/2866155354_f01a4c0a3f_jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 2, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="83">
+
+    <name>Lutheran Church of the Messiah</name>
+    <address>129 Russell St, brooklyn, ny</address>
+
+    <description>This church has a lot of community events (in addition to religious), the FEAST parties, music-type shows, and the local food market.
+
+http://www.nytimes.com/2009/10/24/nyregion/24metjournal.html</description>	
+    <Snippet>This church has a lot of community events (in addition to religious), ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9446679,40.724814,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 2, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="82">
+
+    <name>McGorlick Park</name>
+    <address>109 Russell St, Brookly, ny</address>
+
+    <description>This is the West entrance to McGorlick park. Lots of cyclists could park there bikes here before entering the park.</description>	
+    <Snippet>This is the West entrance to McGorlick park. Lots of cyclists could ...</Snippet>	
+
+    
+    <Point><coordinates>-73.944575,40.7242729,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Nov. 2, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="80">
+
+    <name>Brooklyn Fare</name>
+    <address>200 Schermerhorn St.</address>
+
+    <description>A corner well used by bikers, with few options for locking up</description>	
+    <Snippet>A corner well used by bikers, with few options for locking up</Snippet>	
+
+    
+    <Point><coordinates>-73.9859378,40.6889158,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 22, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="79">
+
+    <name>Subway (Canarsie line)</name>
+    <address>558 Driggs Avenue</address>
+
+    <description>Actually, just removing the dead bikes would probably be more efficient than putting in new racks.  At this point it&#39;s kind of like adding more garbage cans rather than taking out the trash.</description>	
+    <Snippet>Actually, just removing the dead bikes would probably be more efficient than ...</Snippet>	
+
+    
+    <Point><coordinates>-73.956814,40.717018,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/4125251171_a50053f841_o_jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 13, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="78">
+
+    <name>Cafe Grumpy</name>
+    <address>190 Meserole Avenue</address>
+
+    <description>The cafe is a meeting point for people from all over the neighborhood, many of whom arrive by bike.</description>	
+    <Snippet>The cafe is a meeting point for people from all over the ...</Snippet>	
+
+    
+    <Point><coordinates>-73.948645,40.72834,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 13, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="77">
+
+    <name>Greenpoint Reformed Church</name>
+    <address>136 Milton Street, 11222</address>
+
+    <description>Frequent public events and AA meetings at church that many who attend arrive via bicycle.</description>	
+    <Snippet>Frequent public events and AA meetings at church that many who attend ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9550798,40.7293679,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 12, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="76">
+
+    <name>Driggs Avenue Subway</name>
+    <address>183-193 N 7th St, Brooklyn, NY 11211, USA</address>
+
+    <description>Seriously, more bike racks are needed here as well as at the Bedford Station the next block. Everyone knows the racks are constatly full. We need minimum 100 new racks on this block. If necessary replace car parking with bike racks. The demand for them is huge and will only grow.</description>	
+    <Snippet>Seriously, more bike racks are needed here as well as at the ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9564897672,40.7171531573,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/4125265497_314ef3bf70_o_jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 8, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="75">
+
+    <name>Pete&#39;s Candy Store and Beco Bars</name>
+    <address>44 Richardson st, Brooklyn, NY 11211, USA</address>
+
+    <description>This intersection is constantly filled with parked bikes using every pole, signpost, etc available. There are often 20 or more bikes parked here and more space is desperately needed. There is ONE bike rack, in front of Pete&#39;s Candy Store. We need at least 10 or preferably more racks here.</description>	
+    <Snippet>This intersection is constantly filled with parked bikes using every pole, signpost, ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9504741,40.7182464,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_1999_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 8, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="74">
+
+    <name>MAXIM Gym and the JUNK store</name>
+    <address>north 9th st at driggs ave</address>
+
+    <description>active people ride their bicycles to the gym.  the one bike rack on N9th is always full.  bikes get locked to the fence around MAXIM and the JUNK store below street level.  bikes on the fence prevent potential customers from viewing JUNK store wares in the basement level windows.</description>	
+    <Snippet>active people ride their bicycles to the gym. the one bike rack ...</Snippet>	
+
+    
+    <Point><coordinates>-73.955251,40.71814,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/4125275389_05c19c43ab_o_jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 6, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="73">
+
+    <name>KPF Architects/The Steinway Building</name>
+    <address>57th st and 7th ave</address>
+
+    <description>Bikes are not allowed in the building and there are currently no bike racks outside. Architects and engineers who are LEED certified understand the importance of bicycle racks.</description>	
+    <Snippet>Bikes are not allowed in the building and there are currently no ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9800484,40.7655335,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 6, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="72">
+
+    <name>my apartment building</name>
+    <address>68 richardson st 11211</address>
+
+    <description>when friends come to visit, they need a home for their bikes.  a new apartment complex is in construction across the street.  also, pete&#39;s candy store, a popular bar, is across the cross-street, Lorimer. and meeker flea market is just around the corner.</description>	
+    <Snippet>when friends come to visit, they need a home for their bikes. ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9495178,40.7183312,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 6, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="71">
+
+    <name>yo mamam</name>
+    <address>4348 9th ave ne, seattle, wa</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-122.318725,47.660376,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 6, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="70">
+
+    <name>Cafe Ole</name>
+    <address>453 w.54th st</address>
+
+    <description>no bike racks and poles are full</description>	
+    <Snippet>no bike racks and poles are full</Snippet>	
+
+    
+    <Point><coordinates>-73.9894519,40.7669902,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 5, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="69">
+
+    <name>Supermarket, deli, Fusion lounge</name>
+    <address>814 10th ave.</address>
+
+    <description>Why are bike racks needed here? Other details?
+No bike racks for the deli or supermarket, lots of room</description>	
+    <Snippet>Why are bike racks needed here? Other details? No bike racks for ...</Snippet>	
+
+    
+    <Point><coordinates>-73.989505,40.76723,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 5, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="68">
+
+    <name>Bluestockings Bookstore</name>
+    <address>172 Allen St.</address>
+
+    <description>Have not checked the sidewalk but many people bike to this bookstore</description>	
+    <Snippet>Have not checked the sidewalk but many people bike to this bookstore</Snippet>	
+
+    
+    <Point><coordinates>-73.988916,40.721394,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 5, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="67">
+
+    <name>Corner bodega, Zukies bike shop, Thai restaurant</name>
+    <address>267-289 Bushwick Ave, Brooklyn, NY 11206, USA</address>
+
+    <description>A lot of people I know stop at Zukies to chat with Mike and browse the shop, but there is nowhere to lock up a bike. Same thing for running in to the bodega and Thai restaurant. It&#39;s a wide sidewalk with no sign posts to lock to nearby, so a rack is really needed.</description>	
+    <Snippet>A lot of people I know stop at Zukies to chat with ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9395772,40.7062391,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 4, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="66">
+
+    <name>4th street food co-op</name>
+    <address>58 east 4th street, nyc</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.990868,40.726531,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 4, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="65">
+
+    <name>work</name>
+    <address>1133 avenue of the americas </address>
+
+    <description>would be nice to have a bike rack here in a good open location, my bike recently got stolen after locking it up on a rack offered by my building (but around the corner in a not well seen location). it would be good to have one right on 6th. </description>	
+    <Snippet>would be nice to have a bike rack here in a good ...</Snippet>	
+
+    
+    <Point><coordinates>-73.98392,40.756071,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 4, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="64">
+
+    <name>7th Ave Q Subway Station!!</name>
+    <address>park pl and flatbush ave, brooklyn ny</address>
+
+    <description>2 grocery stories, a bar, and dozen restaurants. Yet only room for 4 bikes to park. It&#39;s ridiculous. There are hundreds of bikes near this intersection. At least 12 delivery bikes. </description>	
+    <Snippet>2 grocery stories, a bar, and dozen restaurants. Yet only room for ...</Snippet>	
+
+    
+    <Point><coordinates>-73.972718,40.677528,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 2, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="63">
+
+    <name>Key Food</name>
+    <address>Key Food Supermarket. 52 Avenue A, New York, NY 10009</address>
+
+    <description>there is nowhere to lock bikes in front of this very popular grocery store, since the parking meters were removed.</description>	
+    <Snippet>there is nowhere to lock bikes in front of this very popular ...</Snippet>	
+
+    
+    <Point><coordinates>-73.984604,40.723899,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 2, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="62">
+
+    <name>Subway entrance Corner of Bergen &amp; Smith</name>
+    <address>35-75 Bergen St, Brooklyn, NY 11201, USA</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.9905377284,40.686855296,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 2, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="60">
+
+    <name>office</name>
+    <address>59 maiden lane</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-74.008434,40.708523,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 2, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="59">
+
+    <name>Vajradhara Meditation Center and other things</name>
+    <address>235 St Marks Ave, Brooklyn, NY, 11238</address>
+
+    <description>With multiple regular bikers convening here several nights of the week, spots are pretty limited. Even something on the corner of St. Marks and Vanderbuilt would be better than our search for trees, parking signs, and lamp posts.</description>	
+    <Snippet>With multiple regular bikers convening here several nights of the week, spots ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9678935,40.6784205,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 2, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="58">
+
+    <name>mc carren park farmers market</name>
+    <address>North 12th and Union Ave</address>
+
+    <description>Across from Urban Rustic and Greenmarket</description>	
+    <Snippet>Across from Urban Rustic and Greenmarket</Snippet>	
+
+    
+    <Point><coordinates>-73.952477,40.719219,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_1990_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 2, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="57">
+
+    <name>Cookie Road Coffe Shop (Franklin Side)</name>
+    <address>94 Franklin Street Brooklyn NY 11222</address>
+
+    <description>Store is on corner off existing bike lane</description>	
+    <Snippet>Store is on corner off existing bike lane</Snippet>	
+
+    
+    <Point><coordinates>-73.9572222,40.7277906,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2032_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 1, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="56">
+
+    <name>Coffee Shop Bakery</name>
+    <address>94 Franklin Street Brooklyn NY 11222</address>
+
+    <description>Many people stop off to get coffee, as it is near bike lane, more people would come by bike, and less stoping by cab &amp; car. Also the owners are very nice to cyclist, letting them chain bikes to fence outside of store.</description>	
+    <Snippet>Many people stop off to get coffee, as it is near bike ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9572222,40.7277906,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2030_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 1, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="55">
+
+    <name>Billy&#39;s Locksmith</name>
+    <address>2-16 Bedford Ave, Brooklyn, NY 11222, USA</address>
+
+    <description>Not sure of the address but there is a good spot here (the one in the video)</description>	
+    <Snippet>Not sure of the address but there is a good spot here ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9512755529,40.7239835223,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2014_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 1, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="54">
+
+    <name>home!</name>
+    <address>246 E. 4th Street  10009</address>
+
+    <description>because their are a lot of bike users in our building and next door. I think our neighbors come and use our one rack. More please! Great work</description>	
+    <Snippet>because their are a lot of bike users in our building and ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9824797,40.7232485,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 1, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="53">
+
+    <name>hane restaurant, le petit abeille restaurant</name>
+    <address>e20 street and 1st avenue</address>
+
+    <description>this is an extremely busy intersection with 2 schools within 2 blocks</description>	
+    <Snippet>this is an extremely busy intersection with 2 schools within 2 blocks</Snippet>	
+
+    
+    <Point><coordinates>-73.979868,40.735007,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 1, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="52">
+
+    <name>Roebling Tea Room &amp; Fette Sau</name>
+    <address>143 Roebling St</address>
+
+    <description>There is a very wide sidewalk outside of this popular restaurant and bar (there are two or more very popular restaurants here) and no place to park your bike except to the staircase.  This area could handle several bike racks easily, since there is only one doorway in about 30 feet of space from t</description>	
+    <Snippet>There is a very wide sidewalk outside of this popular restaurant and ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9575942,40.71438,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 1, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="51">
+
+    <name>public space</name>
+    <address>453 w.54th st</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.9894519,40.7669902,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 1, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="50">
+
+    <name>public space</name>
+    <address>812 10th ave</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.989566,40.767153,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 1, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="49">
+
+    <name>Public Space</name>
+    <address>742-788 Metropolitan Ave, Brooklyn, NY 11211, USA</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.942732,40.7146856,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 1, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="48">
+
+    <name>Public Space</name>
+    <address>2-188 Meeker Ave, Brooklyn, NY 11211, USA</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.95185491,40.7148762132,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 1, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="47">
+
+    <name>Franny&#39;s</name>
+    <address>Flatbush Avenue and Prospect Place</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.97352,40.678644,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 1, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="46">
+
+    <name>L train Lorimer stop</name>
+    <address>Metropolitan Ave &amp; Union Ave</address>
+
+    <description>The Lorimer stop is well trafficked and has 2 exits, one one Metropolitan Ave &amp; Union Ave, one on Metropolitan Ave &amp; Lorimer St.</description>	
+    <Snippet>The Lorimer stop is well trafficked and has 2 exits, one one ...</Snippet>	
+
+    
+    <Point><coordinates>-73.951652,40.714047,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Oct. 1, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="45">
+
+    <name>Brooklyn creative league </name>
+    <address>540 president street, 11215</address>
+
+    <description>New commercial space with mixed offices and many more bike commuters than available poles!</description>	
+    <Snippet>New commercial space with mixed offices and many more bike commuters than ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9850954,40.6773861,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 25, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="44">
+
+    <name>Diamond Bar </name>
+    <address>43 Franklin Streent, brooklyn, ny</address>
+
+    <description>Diamond Bar. People frequently bike here and it should have some racks.</description>	
+    <Snippet>Diamond Bar. People frequently bike here and it should have some racks.</Snippet>	
+
+    
+    <Point><coordinates>-73.9572802,40.726792,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2034_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 24, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="43">
+
+    <name>Community Garden</name>
+    <address>179-215 S 2nd St, Brooklyn, NY 11211, USA</address>
+
+    <description>Have not examined the spot but this garden could use parking.</description>	
+    <Snippet>Have not examined the spot but this garden could use parking.</Snippet>	
+
+    
+    <Point><coordinates>-73.959579672,40.7125829265,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 24, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="42">
+
+    <name>public space</name>
+    <address>409-427 Wythe Ave, Brooklyn, NY 11211, USA</address>
+
+    <description>Many vans and no bike parking, save space and the environment</description>	
+    <Snippet>Many vans and no bike parking, save space and the environment</Snippet>	
+
+    
+    <Point><coordinates>-73.9668597841,40.7102355014,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 24, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="41">
+
+    <name>Change You Want To See Gallery</name>
+    <address>84 Havemeyer Street</address>
+
+    <description>Gallery &amp; shared work space.</description>	
+    <Snippet>Gallery &amp; shared work space.</Snippet>	
+
+    
+    <Point><coordinates>-73.954344,40.714063,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 21, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="39">
+
+    <name>Passout Records</name>
+    <address>131 Grand Street, Brooklyn, NYC</address>
+
+    <description>Record store with lots of bikes nearby. We got a staffer to sign off on the rack with full support for more racks!</description>	
+    <Snippet>Record store with lots of bikes nearby. We got a staffer to ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9626121,40.7150565,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/passout2_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="38">
+
+    <name>Residential Building</name>
+    <address>149 Grand St., Brooklyn, NY</address>
+
+    <description>next to a retail store (a bath store)</description>	
+    <Snippet>next to a retail store (a bath store)</Snippet>	
+
+    
+    <Point><coordinates>-73.9620252,40.7148174,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/residential_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="36">
+
+    <name>Coffee Shop</name>
+    <address>85 Driggs Ave, Brooklyn</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.9423807,40.7232341,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/DSC05332_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="37">
+
+    <name>Hermano &amp; Deli Grocery</name>
+    <address>176 Grand St. Brooklyn, NY</address>
+
+    <description>manager is typically here at night</description>	
+    <Snippet>manager is typically here at night</Snippet>	
+
+    
+    <Point><coordinates>-73.9611408,40.7144202,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_0233_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="35">
+
+    <name>Many shops in this area.</name>
+    <address>69 Driggs Ave, Brooklyn, ny</address>
+
+    <description>This area has many shops and needs multiple racks.</description>	
+    <Snippet>This area has many shops and needs multiple racks.</Snippet>	
+
+    
+    <Point><coordinates>-73.9416964,40.7233004,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/DSC05335_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="34">
+
+    <name>C Quinn and Co</name>
+    <address>273 Kingsland Ave, Brooklyn, NY 11222, USA</address>
+
+    <description>this area needs multiple racks.</description>	
+    <Snippet>this area needs multiple racks.</Snippet>	
+
+    
+    <Point><coordinates>-73.9417143644,40.7259119786,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/DSC05339_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="33">
+
+    <name>Malta (restaurant)</name>
+    <address>294 Grand St., Brooklyn, NY</address>
+
+    <description>same owner as Mshanghai</description>	
+    <Snippet>same owner as Mshanghai</Snippet>	
+
+    
+    <Point><coordinates>-73.9575061,40.7129752,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="32">
+
+    <name>C Quinn and Co</name>
+    <address>195 Kingsland Ave, Brooklyn, ny</address>
+
+    <description>this area needs multiple racks.</description>	
+    <Snippet>this area needs multiple racks.</Snippet>	
+
+    
+    <Point><coordinates>-73.9412827,40.723261,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/DSC05338_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="30">
+
+    <name>Kingsland Mini Market</name>
+    <address>194 Kingland Ave, brooklyn, ny</address>
+
+    <description>In front of minimarket.</description>	
+    <Snippet>In front of minimarket.</Snippet>	
+
+    
+    <Point><coordinates>-73.9412609,40.723393,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/DSC05340_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="31">
+
+    <name>Artist space?</name>
+    <address>304 Grand St, Brooklyn, NY</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.9572078,40.7128721,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/obama2_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="28">
+
+    <name>&quot;Sterlized Diaper&quot; Building</name>
+    <address>337 Grand St, Brooklyn, ny</address>
+
+    <description>Mixed residential w/ some restaurants and a ton of bikes parked on both sides of the streets. </description>	
+    <Snippet>Mixed residential w/ some restaurants and a ton of bikes parked on ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9564188,40.7126304,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/diaper2_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="29">
+
+    <name>ps110 / deli</name>
+    <address>113-183 Monitor St, Brooklyn, NY 11222, USA</address>
+
+    <description>this area has no bike racks and needs multiple. </description>	
+    <Snippet>this area has no bike racks and needs multiple.</Snippet>	
+
+    
+    <Point><coordinates>-73.9422546362,40.7233174433,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/DSC05334_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="27">
+
+    <name>Sky Flowers</name>
+    <address>597-679 Humboldt St, Brooklyn, NY 11222, USA</address>
+
+    <description>Next to Sky Flowers.</description>	
+    <Snippet>Next to Sky Flowers.</Snippet>	
+
+    
+    <Point><coordinates>-73.9450489356,40.7230544554,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/DSC05345_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="25">
+
+    <name>opposite several restaurants</name>
+    <address>191-209 Roebling St, Brooklyn, NY 11211, USA</address>
+
+    <description> no room across the street for racks, but plenty on this side. lots of restaurants, residential and shopping without rack space on the opposite side</description>	
+    <Snippet>no room across the street for racks, but plenty on this side. ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9589023241,40.7123712032,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="26">
+
+    <name>Met Food</name>
+    <address>131 Driggs Ave, Brooklyn, ny</address>
+
+    <description>While the DOT says that there are multiple racks in this area, there isn&#39;t. There should be multiple racks in this area.</description>	
+    <Snippet>While the DOT says that there are multiple racks in this area, ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9438642,40.7230919,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/DSC05331_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="24">
+
+    <name>Saved Tattoo (parlor)</name>
+    <address>3 hope street, brooklyn</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.9578026,40.7139298,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/Tatoo2_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="23">
+
+    <name>District Dog</name>
+    <address>146-198 Russell St, Brooklyn, NY 11222, USA</address>
+
+    <description>While the DOT says this intersection has many racks, it doesn&#39;t. </description>	
+    <Snippet>While the DOT says this intersection has many racks, it doesn&#39;t.</Snippet>	
+
+    
+    <Point><coordinates>-73.9444734,40.7256836327,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/DSC05328_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="22">
+
+    <name>The Greenpoint Church of the Messiah</name>
+    <address>127 Russell Ave, Brooklyn, ny</address>
+
+    <description>Across the street from the church on the park side of the street. This area needs multiple racks.</description>	
+    <Snippet>Across the street from the church on the park side of the ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9444138,40.7249602,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/DSC05326_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="21">
+
+    <name>Pallace Cafe</name>
+    <address>73-145 Russell St, Brooklyn, NY 11222, USA</address>
+
+    <description>in front of pallace cafe on Russell St.</description>	
+    <Snippet>in front of pallace cafe on Russell St.</Snippet>	
+
+    
+    <Point><coordinates>-73.944515,40.725574,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/DSC05325_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="19">
+
+    <name>Pallace Cafe</name>
+    <address>206 Nassau ave, brooklyn, ny</address>
+
+    <description>in front of pallace cafe</description>	
+    <Snippet>in front of pallace cafe</Snippet>	
+
+    
+    <Point><coordinates>-73.9445561,40.7255889,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/DSC05323_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="20">
+
+    <name>Paul Smith Sale Shop</name>
+    <address>280 Grand St., Brooklyn</address>
+
+    <description>Lots of retail shops &amp; bars nearby. Spoke with Todd the store manager, 718-218-0020 he said that for permission they&#39;d have to talk to the corporate office</description>	
+    <Snippet>Lots of retail shops &amp; bars nearby. Spoke with Todd the store ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9579161,40.71313,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="18">
+
+    <name>Public Space</name>
+    <address>696-748 Humboldt St, Brooklyn, NY 11222, USA</address>
+
+    <description>Across from 685 Humbolt St on public sidewalk</description>	
+    <Snippet>Across from 685 Humbolt St on public sidewalk</Snippet>	
+
+    
+    <Point><coordinates>-73.9454088981,40.7256512019,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/DSC05321_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="17">
+
+    <name>Busy Bee</name>
+    <address>185 Nassau Ave, Brooklyn</address>
+
+    <description>In front of Busy Bee, btw hydrant and poll.</description>	
+    <Snippet>In front of Busy Bee, btw hydrant and poll.</Snippet>	
+
+    
+    <Point><coordinates>-73.9457209,40.7254641,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/DSC05319_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="16">
+
+    <name>Busy Bee</name>
+    <address>2-52 Jewel St, Brooklyn, NY 11222, USA</address>
+
+    <description>Next to Busy Bee (185 Nassau Ave)</description>	
+    <Snippet>Next to Busy Bee (185 Nassau Ave)</Snippet>	
+
+    
+    <Point><coordinates>-73.9457825908,40.7255128847,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/DSC05318_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="15">
+
+    <name>Dante&#39;s</name>
+    <address>1-39 Hope St, Brooklyn, NY 11211, USA</address>
+
+    <description>Bike rack zone surrounding building. Building has lots of bike rider residents, many illegal bike parking instances.</description>	
+    <Snippet>Bike rack zone surrounding building. Building has lots of bike rider residents, ...</Snippet>	
+
+    
+    <Point><coordinates>-73.9577021257,40.7139369511,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_7315_jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="14">
+
+    <name>Next to Laundromat </name>
+    <address>184 Nassu Ave, Brooklyn, ny</address>
+
+    <description>between jewel and diamond.</description>	
+    <Snippet>between jewel and diamond.</Snippet>	
+
+    
+    <Point><coordinates>-73.945798,40.725188,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/DSC05317_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 20, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="13">
+
+    <name>Busy Corner</name>
+    <address>Greenpoint Avenue &amp; Manhattan Avenue</address>
+
+    <description>Subway entrance, plus many shops to visit here.</description>	
+    <Snippet>Subway entrance, plus many shops to visit here.</Snippet>	
+
+    
+    <Point><coordinates>-73.954254,40.730191,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 18, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="11">
+
+    <name>McCarren Park Pool</name>
+    <address>Lorimer Street between Driggs Avenue and Bayard Street</address>
+
+    <description>Racks here would allow people to bike to the McCarren Pool and McCarren Park Track across the street. </description>	
+    <Snippet>Racks here would allow people to bike to the McCarren Pool and ...</Snippet>	
+
+    
+    <Point><coordinates>-73.954344,40.714063,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 18, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="10">
+
+    <name>Marcy Ave Subway Station</name>
+    <address>Marcy Ave. and Broadway, Brooklyn, NY</address>
+
+    <description>There are a few racks here but there should be more. This would allow more people to bike to the subway.</description>	
+    <Snippet>There are a few racks here but there should be more. This ...</Snippet>	
+
+    
+    <Point><coordinates>-73.957908,40.708423,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 18, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="9">
+
+    <name>Greenpoint YMCA</name>
+    <address>99 Meserole Avenue, brooklyn ny</address>
+
+    <description>Many people bike here, right now they lock to a construction scaffold but there should be a bunch of bike racks here, ideally able to accommodate 20 or more bikes</description>	
+    <Snippet>Many people bike here, right now they lock to a construction scaffold ...</Snippet>	
+
+    
+    <Point><coordinates>-73.953332,40.7269,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/IMG_2029_JPG_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 18, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="7">
+
+    <name>Fabienne&#39;s &amp; Housing</name>
+    <address>183-219 N 5th St, Brooklyn, NY 11211, USA</address>
+
+    <description>WTF dude get it together</description>	
+    <Snippet>WTF dude get it together</Snippet>	
+
+    
+    <Point><coordinates>-73.956381,40.715173,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 18, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="6">
+
+    <name>cinecycle</name>
+    <address>181 N 11th St, Brooklyn, NY 11211, USA</address>
+
+    <description>there are many commuters: bikers and green or pro-bike people in this building!</description>	
+    <Snippet>there are many commuters: bikers and green or pro-bike people in this ...</Snippet>	
+
+    
+    <Point><coordinates>-73.954378,40.719448,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 18, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="5">
+
+    <name>Subway station</name>
+    <address>bedford ave &amp; n. 7th street, brooklyn, ny</address>
+
+    <description>There are bike racks here but we need more... many more. </description>	
+    <Snippet>There are bike racks here but we need more... many more.</Snippet>	
+
+    
+    <Point><coordinates>-73.957723,40.717821,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/4126027750_5f3ce80a4a_o_jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+        <Data name="verified"><value>true</value></Data>
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 18, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="4">
+
+    <name>cafe grumpy</name>
+    <address>193 Meserole Ave</address>
+
+    <description>not enough bike parking!</description>	
+    <Snippet>not enough bike parking!</Snippet>	
+
+    
+    <Point><coordinates>-73.948553,40.72849,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 18, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="3">
+
+    <name>restaurant</name>
+    <address>354 Metropolitan Avenue, Brooklyn, NY 11211</address>
+
+    <description>There is a shortage of bike parking at this restaurant.</description>	
+    <Snippet>There is a shortage of bike parking at this restaurant.</Snippet>	
+
+    
+    <Point><coordinates>-73.954344,40.714063,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 18, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="8">
+
+    <name>clinton/washington c train stop</name>
+    <address>washington and fulton, brooklyn, ny 11238</address>
+
+    <description></description>	
+    <Snippet></Snippet>	
+
+    
+    <Point><coordinates>-73.964778,40.683039,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 18, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="2">
+
+    <name>Apartments</name>
+    <address>82 Clinton Ave, Brooklyn NY 11205</address>
+
+    <description>There are many cyclists living in the brownstones at the end of the block near Park Ave and there are a minimum amount of signs to lock to.  People have taken to locking to front gates and our landlords won&#39;t allow us to do so.  We could use many racks.</description>	
+    <Snippet>There are many cyclists living in the brownstones at the end of ...</Snippet>	
+
+    
+    <Point><coordinates>-73.954344,40.714063,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 18, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+  <Placemark id="1">
+
+    <name>East River State Park</name>
+    <address>90-108 Kent Ave, Brooklyn, NY 11211, USA</address>
+
+    <description>This park could use more bike parking!</description>	
+    <Snippet>This park could use more bike parking!</Snippet>	
+
+    
+    <Point><coordinates>-73.954344,40.714063,0</coordinates></Point>    
+    	
+
+    <ExtendedData>
+      
+        <Data name="thumbnail"><value>/uploads/images/racks/east_river_state_park_jpg_100x100_q85.jpg</value></Data>
+      
+
+      
+
+        <Data name="page_number"><value>1</value></Data>
+
+        
+        
+        <Data name="num_pages"><value>1</value></Data>
+
+      
+        <Data name="source"><value>web</value></Data>
+      
+
+      <Data name="date"><value>Sept. 18, 2009</value></Data>
+
+    </ExtendedData>      
+
+  </Placemark>
+
+</Document>
+</kml>
