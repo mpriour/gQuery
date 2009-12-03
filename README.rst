@@ -1,8 +1,8 @@
 GeoQuery
 ======== 
 
-A simple and dumb Mapping library that allows users to render vector
-on top of Google Project WMS Layers using Jquery like syntax.
+A simple and dumb mapping library that allows users to render vectors
+on top of Google Project WMS Layers using Jquery.
 
 Basic assumptions 
    1. base layer is in "ESPG:900913", 
