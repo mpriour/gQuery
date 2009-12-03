@@ -1,29 +1,38 @@
-
-
 GeoQuery
 ======== 
 
-A simple and dumb Mapping library that allows users to render vector on top of Google Project WMS Layers 
+A simple and dumb Mapping library that allows users to render vector
+on top of Google Project WMS Layers using Jquery like syntax.
 
 #. Basic assumptions 
    1. base layer is in "ESPG:900913", 
    2. feature information is in "ESPG:4326" 
         so points look like (-73,43) not (something crazy)
-   
+   3. There are popups associated the vector layer. 
+   4. The function you pass to onClick is run when you select a
+   feature. 
 
+
+Dependencies 
+------------- 
 Jquery 1.3.2 ? 
-
-download at 
------------- 
-http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js
+download at:: 
+ 
+    http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js
 
 OpenLayers trunk 
+download at::
+    
+    svn http://svn.openlayers.org/trunk/ openlayers 
 
-download at 
------------ 
+Build OpenLayers::
+    
+    cd build
+    python build.py 
+
 
 This is what we have 
--------------------- 
+---------------------  
 What has been done so far::
 
   $('#map').map({ 
@@ -44,7 +53,6 @@ This is a example of the features we want::
         'onPopup' : function(feature)  { 
         
          },
-
        'url' : 'url/to/kml.kml', 
        'format' : 'kml' || 'geojson' || 'gml' || 'wfs'  
        'icon' :  'url/to/icon.png', 

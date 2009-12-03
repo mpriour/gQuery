@@ -24,6 +24,8 @@ Ivan Willig
    // kind of hacky.. but works
    var div = this[0].id ;   
    var map = new OpenLayers.Map(div,MapOptions);
+
+   //add base layer... what if they do not pick which layer 
    if (options.baselayer == 'openstreetmap') { 
        var layer = new OpenLayers.Layer.WMS(
            "openstreetmap","http://maps.opengeo.org/geowebcache/service/wms",
