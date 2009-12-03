@@ -10,7 +10,16 @@ download at
 ------------ 
 http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js
 
+This is what we have 
+-------------------- 
+What has been done so far::
 
+  $('#map').map({ 
+    'center' : [-73,43], 
+    'zoomLevel: 5, 
+    'baselayer: 'openstreetmap' | 'bluemarble'
+  
+  ) 
 
 
 This is what we want. 
