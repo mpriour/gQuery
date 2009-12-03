@@ -1,6 +1,6 @@
 
 
-GQuery
+GeoQuery
 ======== 
 
 
