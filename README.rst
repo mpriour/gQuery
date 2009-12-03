@@ -4,13 +4,13 @@ GeoQuery
 A simple and dumb Mapping library that allows users to render vector
 on top of Google Project WMS Layers using Jquery like syntax.
 
-#. Basic assumptions 
+Basic assumptions 
    1. base layer is in "ESPG:900913", 
    2. feature information is in "ESPG:4326" 
-        so points look like (-73,43) not (something crazy)
+      so points look like (-73,43) not (something crazy)
    3. There are popups associated the vector layer. 
    4. The function you pass to onClick is run when you select a
-   feature. 
+      feature. 
 
 
 Dependencies 
