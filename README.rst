@@ -15,37 +15,36 @@ Basic assumptions
 Possible Future
 --------------- 
 
-suggestions from tenzo 
+Configuration
 ++++++++++++++++++++++ 
 
-$('#map').map({map config, kml: {filter: "somefilter", style: "somestyle", click: "function"}}); 
+Tenzo's suggestions on configuration::
+
+    $('#map').map({map config, kml: {filter: "somefilter", style: "somestyle", click: "function"}}); 
 
 
-suggestions from whit
+Feature Filtering
 ++++++++++++++++++++++ 
 
-$("#map").kml.points.onClick(function(){showpopups}) 
+Whit's kick ass ideas about filtering::
 
-$("#map").wfs.query('blah').onClick(...)
+    $("#map").kml.points.onClick(function(){showpopups}) 
+    $("#map").wfs.query('blah').onClick(...)
+    map.kml.filter(someselector).styles({}) 
+    maps.wfs({url:someurl}).style({})
+    map.wfs.filter("type:school").style({}).show()
+    map.wfs.filter("type:school").onClick(function(e){var tempate = $("#popup-school"); showPopup(e, template)})
 
-map.kml.filter(someselector).styles({}) 
+Whit also brings up some good points about each vector layer type having different strengths and weakness  
 
-maps.wfs({url:someurl}).style({})
-map.wfs.filter("type:school").style({}).show()
+Jquery Popups
++++++++++++++ 
 
-map.wfs.filter("type:school").onClick(function(e){var tempate = $("#popup-school"); showPopup(e, template)})
+Rob's ideas about popups::
 
-basic idea 
-map.wfs 
-map.kml 
-map.geojson 
-
-
-other ideas
-+++++++++++
-map.features.popup(function(evt) {
-  return $('<div class="popup"><p>' + $(this).attributes.title + '</p></div>');
-  });
+    map.features.popup(function(evt) {
+      return $('<div class="popup"><p>' + $(this).attributes.title + '</p></div>');
+      });
 
 
 Dependencies 
@@ -111,25 +110,10 @@ Other options::
     Where the GeoJSON looks like
     features = { 
         "type" : "Features" [ { 
-            "coords" : blah 
-            "props" : { "render" : "true" 
+            "coords" : blah, 
+            "props" : { "render" : "true"} 
         }
         ]
 
      } 
-
-What about this?::
-    
-
-    $('#map').map({ 
-        'center' : [-73,43], 
-         'vectors' : { 
-            "bikes" : {"url": "example.com/bikes.kml", "type" : "kml" }, 
-            "roads" : {"url": "example.com/roads.josn"}
-            "points" : {"url": "http://demo.opengeo.org/geoserver/wfs", "layer": "points" }  
-             } 
-    }); 
-
-    $('#map').roads.filter.("WHERE name = \'Broadway\'").style({}); 
-
 
