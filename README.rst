@@ -41,6 +41,13 @@ map.kml
 map.geojson 
 
 
+other ideas
++++++++++++
+map.features.popup(function(evt) {
+  return $('<div class="popup"><p>' + $(this).attributes.title + '</p></div>');
+  });
+
+
 Dependencies 
 ------------- 
 Jquery 1.3.2 ? 
