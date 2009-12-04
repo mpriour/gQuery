@@ -83,3 +83,40 @@ This is a example of the features we want::
        'contorls': [ new OpenLayers.Control.PanZoom ], 
 
     })
+
+Other options::
+
+    $('#map').map({
+         'center' : [-73,43], 
+         'baselayer' : 'bluemarble',
+         'url' : '', 
+         'format' : 'kml'
+         });
+     
+    $('#map').geojson.filter('render': 'true').style({'icon': 'point.png'}); 
+
+    Where the GeoJSON looks like
+    features = { 
+        "type" : "Features" [ { 
+            "coords" : blah 
+            "props" : { "render" : "true" 
+        }
+        ]
+
+     } 
+
+What about this?::
+    
+
+    $('#map').map({ 
+        'center' : [-73,43], 
+         'vectors' : { 
+            "bikes" : {"url": "example.com/bikes.kml", "type" : "kml" }, 
+            "roads" : {"url": "example.com/roads.josn"}
+            "points" : {"url": "http://demo.opengeo.org/geoserver/wfs", "layer": "points" }  
+             } 
+    }); 
+
+    $('#map').roads.filter.("WHERE name = \'Broadway\'").style({}); 
+
+
