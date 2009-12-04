@@ -12,6 +12,28 @@ Basic assumptions
    4. The function you pass to onClick is run when you select a
       feature. 
 
+Possible Future
+--------------- 
+
+suggestions from whit
+++++++++++++++++++++++ 
+
+$("#map").kml.points.onClick(function(){showpopups}) 
+
+$("#map").wfs.query('blah').onClick(...)
+
+map.kml.filter(someselector).styles({}) 
+
+maps.wfs({url:someurl}).style({})
+map.wfs.filter("type:school").style({}).show()
+
+map.wfs.filter("type:school").onClick(function(e){var tempate = $("#popup-school"); showPopup(e, template)})
+
+basic idea 
+map.wfs 
+map.kml 
+map.geojson 
+
 
 Dependencies 
 ------------- 
