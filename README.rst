@@ -15,6 +15,12 @@ Basic assumptions
 Possible Future
 --------------- 
 
+suggestions from tenzo 
+++++++++++++++++++++++ 
+
+$('#map').map({map config, kml: {filter: "somefilter", style: "somestyle", click: "function"}}); 
+
+
 suggestions from whit
 ++++++++++++++++++++++ 
 
