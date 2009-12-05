@@ -1,0 +1,49 @@
+<html>
+    <head> 
+        <title>geoquery or gquery</title>
+        <script type="text/javascript" src="lib/jquery-1.3.2.min.js"></script>
+        <script type="text/javascript" src="lib/OpenLayers.js"></script>
+        <script type="text/javascript" src="jquery.map.js"></script>        
+        <script type="text/javascript">
+         
+        function showPopup(event) { 
+            console.log("selected feature");
+            console.log(event);
+        }; 
+
+        function closePopup(event) {
+            console.log("feature unselect"); 
+            console.log(event); 
+        }; 
+
+         $(document).ready(function(){
+                 $('#map').map({ 
+                      'center': [-73,43], 
+                      'baselayer' : 'bluemarble', 
+                      'url' : './regions.kml', 
+                      onClick: function(event) { 
+                             showPopup(event); 
+                             },
+                      onUnclick: function(event) { 
+                            closePopup(event);   
+                          }    
+                      }) ;   
+            });
+        /* 
+            
+        */
+        </script>
+        <style type="text/css">
+        #map {
+            margin: 5px auto ; 
+            height: 100%; 
+            width: 100%; 
+            background: #eee ;
+             }  
+
+        </style>
+   </head> 
+<body>
+<div id="map"> </div> 
+</body>
+</html>
