@@ -16,11 +16,12 @@
             console.log(event); 
         }; 
 
-         $(document).ready(function(){
-                 $('#map').map({ 
-                      'center': [-73,43], 
+        $(document).ready(function(){
+                 
+                $('#map').map({
+                      'center': [-73,43],  
                       'baselayer' : 'bluemarble', 
-                      'url' : './regions.kml', 
+                      'url' : './requested.kml', 
                       onClick: function(event) { 
                              showPopup(event); 
                              },

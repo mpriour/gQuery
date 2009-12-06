@@ -9,11 +9,13 @@
         function showPopup(event) { 
             console.log("selected feature");
             console.log(event);
+            $('#feature').html("<p>" + event.feature.attributes.description + "</p>"); 
         }; 
 
         function closePopup(event) {
             console.log("feature unselect"); 
-            console.log(event); 
+            console.log(event);
+            $('#feature').html("");  
         }; 
 
          $(document).ready(function(){
@@ -36,14 +38,16 @@
         <style type="text/css">
         #map {
             margin: 5px auto ; 
-            height: 100%; 
-            width: 100%; 
+            height: 500px; 
+            width: 500px; 
             background: #eee ;
-             }  
+        } 
+        #feature {background: #eee;} 
 
         </style>
    </head> 
 <body>
 <div id="map"> </div> 
+  <div id="feature"> </div>
 </body>
 </html>

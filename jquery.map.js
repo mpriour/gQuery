@@ -4,17 +4,17 @@ Ivan Willig
 
 basic map usage 
 $('#map').map({}); 
-
+See documentation for more details 
 */
 
 (function($){
    $.fn.map = function(options) {
    var defaults = { 
-       'center':  [0,0],
+       'center':  null,
        'url' : null,
        'format' : null,  
        'zoomLevel': 5,  
-        //         
+                
        'projection': 900913,
        'displayProjection': 4326, 
        'baseLayer': 'openstreetmap', 
@@ -24,11 +24,19 @@ $('#map').map({});
    var options = $.extend(defaults,options);
    var MapOptions = { 
        resolutions: options.resolutions, 
-       projection: new OpenLayers.Projection("EPSG:" + options.projection + ""),
+       projection: new OpenLayers.Projection("EPSG:" + options.projection),
+       displayProjection: new OpenLayers.Projection("EPSG:" + options.displayProjection),
        maxExtent: new OpenLayers.Bounds(-2.003750834E7,-2.003750834E7,2.003750834E7,2.003750834E7),
        units: "meters"
    }
-  
+
+   function log(error) { 
+        if(window.console) { 
+            console.log(error); 
+        };
+         
+   } 
+
    // kind of hacky.. but works
    var div = this[0].id ;   
    var map = new OpenLayers.Map(div,MapOptions);
@@ -87,7 +95,7 @@ $('#map').map({});
             var onFeatureSelect = options.onClick;    
         } 
         else {
-            console.log("onclick is null");  
+            log("onclick is null");  
             var onFeatureSelect; 
         } 
         if (options.onUnclick != null) { 
@@ -119,10 +127,24 @@ $('#map').map({});
         */
 
    }
-   map.addControl( new OpenLayers.Control.LayerSwitcher()); 
-   var Point = new OpenLayers.LonLat(options.center[0],options.center[1]); 
-   Point.transform(new OpenLayers.Projection("EPSG:4326"), new OpenLayers.Projection("EPSG:900913"));
-   map.setCenter(new OpenLayers.LonLat(Point.lon,Point.lat),options.zoomLevel);
-   };
+   if (options.center == null &&  options.extent == null) { 
+       var Center = new OpenLayers.LonLat(0,0); 
+       Center.transform(map.displayProjection,map.projection);
+       map.setCenter(Center,options.zoomLevel);
+       log(Center); 
+   } 
+   else if (options.center != null && options.extent == null ) { 
+       var Center = new OpenLayers.LonLat(options.center[0],options.center[1]); 
+       Center.transform(map.displayProjection,map.projection);
+       map.setCenter(Center,options.zoomLevel);
+       log(Center); 
+       } 
+   else if (options.center == null && options.extent != null) { 
+       var Extent = new OpenLayers.Bounds(options.extent[0],options.extent[1],options.extent[2],options.extent[3]); 
+       Extent.transform(map.displayProjection,map.projection);
+       map.zoomToExtent(Extent);  
+   } 
+   
+ };
 })(jQuery);
 
