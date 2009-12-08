@@ -130,18 +130,24 @@ See documentation for more details
    function showPopup(event) {
        var mapObject = event.object.map ;
        var pixel = mapObject.getPixelFromLonLat(event.feature.geometry.getBounds().getCenterLonLat()) ;
-       $('#feature').html($.fn.map.popupFormat("<p>" + event.feature.attributes.description + "</p>")).css({'top': pixel.x, 'left': pixel.y});
+       $('#feature').html($.fn.map.popupFormat("<p>" + event.feature.attributes.description + "</p>")).css({'top': pixel.y, 'left': pixel.x}).show();
        log(pixel); 
    }; 
 
    function closePopup(event) {
+	     $('#feature').html("").hide();
        log(event); 
    };
  };
 
 	$.fn.map.popupFormat = function(markup) { // Allow overrides from outside the function
 	// do we want to also allow classnames to be passed in via options?
-	 return '<div class="gquery-wrap"><div class="gquery-popup">' + markup + '</div></div>';
+	 var closePopup = $($.fn.map.closePopupFormat).click(function() {alert("monkey");});
+	 return '<div class="gquery-wrap"><div class="gquery-popup">' + $.fn.map.closePopupFormat + markup + '</div></div>';
 	};
+	
+	// this may be better handled via options to map()
+	$.fn.map.closePopupFormat = '<div class="gquery-close>x</div>';
+	
 })(jQuery);
 
