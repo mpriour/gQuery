@@ -128,6 +128,7 @@ See documentation for more details
    } 
    
    function showPopup(event) {
+<<<<<<< HEAD
        var mapObject = event.object.map ;
        var pixel = mapObject.getPixelFromLonLat(event.feature.geometry.getBounds().getCenterLonLat()) ;
        $('#feature').html($.fn.map.popupFormat("<p>" + event.feature.attributes.description + "</p>")).css({'top': pixel.y, 'left': pixel.x}).show();
