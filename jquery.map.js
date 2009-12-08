@@ -93,6 +93,7 @@ See documentation for more details
 
         if(options.onClick != null) { 
             var onFeatureSelect = options.onClick;    
+        
         } 
         else {
             log("onclick is null");  

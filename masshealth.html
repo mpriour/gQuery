@@ -7,9 +7,7 @@
         <script type="text/javascript">
          
         function showPopup(event) { 
-            //console.log("selected feature");
-            //console.log(event);
-            $('#feature').html("<p>" + event.feature.attributes.description + "<br /><br />"+ event.map.getPixelFromLonLat(event.feature.geometry.getBounds().getCenterLonLat()) + "</p>").show(); 
+            $('#feature').html("<p>" + event.feature.attributes.description + "<br /><br /> </p>").show(); 
         }; 
 
         function closePopup(event) {
