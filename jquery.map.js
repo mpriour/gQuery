@@ -135,7 +135,6 @@ See documentation for more details
    }; 
 
    function closePopup(event) {
-	     $('#feature').html("").hide();
        log(event); 
    };
  };
