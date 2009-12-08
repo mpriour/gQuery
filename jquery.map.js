@@ -109,23 +109,6 @@ See documentation for more details
 
         map.addControl(selectCtrl);
         selectCtrl.activate();
-
-        /* 
-
-        if (options.format == null){
-            alert(url); 
-        };
-        if(options.format == 'kml') { 
-        // add kml file using url 
-        }; 
-        if(options.format = 'geojson') { 
-        // add gejoson file using url 
-         };
-        if(options.format = 'wfs') { 
-        // add a wfs layer 
-        };
-        */
-
    }
    if (options.center == null &&  options.extent == null) { 
        var Center = new OpenLayers.LonLat(0,0); 
