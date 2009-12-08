@@ -5,28 +5,11 @@
         <script type="text/javascript" src="OpenLayers.js"></script>
         <script type="text/javascript" src="jquery.map.js"></script>        
         <script type="text/javascript">
-         
-        function showPopup(event) { 
-            $('#feature').html("<p>" + event.feature.attributes.description + "<br /><br /> </p>").show(); 
-        }; 
-
-        function closePopup(event) {
-            //console.log("feature unselect"); 
-            //console.log(event);
-            $('#feature').html("").hide();  
-        }; 
-
          $(document).ready(function(){
                  $('#map').map({ 
                       'extent': [-73.508240, 41.237962,-69.927802, 42.886818], 
                       'baselayer' : 'bluemarble', 
-                      'url' : './regions.kml', 
-                      onClick: function(event) { 
-                             showPopup(event); 
-                             },
-                      onUnclick: function(event) { 
-                            closePopup(event);   
-                          }    
+                      'url' : './regions.kml'
                       }) ;   
             });
         /* 
@@ -41,12 +24,12 @@
             background: #eee ;
             position: relative;
         } 
-        #feature {background: #eee; position: absolute; z-index: 100000; width: 100%;ß} 
+        #feature {background: #eee; position: absolute; z-index: 100000;} 
 
         </style>
    </head> 
 <body>
-<div id="map"><div id="feature"> </div></div> 
+<div id="map"><div id="feature"></div></div> 
   
 </body>
 </html>

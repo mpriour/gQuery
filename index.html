@@ -5,30 +5,12 @@
         <script type="text/javascript" src="OpenLayers.js"></script>
         <script type="text/javascript" src="jquery.map.js"></script>        
         <script type="text/javascript">
-         
-        function showPopup(event) {
-            var mapObject = event.object.map ;
-            var pixel = mapObject.getPixelFromLonLat(event.feature.geometry.getBounds().getCenterLonLat()) 
-            console.log(pixel); 
-        }; 
-
-        function closePopup(event) {
-            console.log(event); 
-        }; 
-
         $(document).ready(function(){
         
         $('#map').map({
                       'center': [-73,43],  
                       'baselayer' : 'bluemarble', 
-                      'url' : './requested.kml', 
-                      onClick: function(event) { 
-                             showPopup(event); 
-                             },
-                      onUnclick: function(event) { 
-                            closePopup(event);   
-                          }    
-                      }) ;   
+                      'url' : './requested.kml'}) ;   
             });
         /* 
             
@@ -40,11 +22,12 @@
             height: 100%; 
             width: 100%; 
             background: #eee ;
+            position: relative;
              }  
-
+        #feature {background: #eee; position: absolute; z-index: 100000; } 
         </style>
    </head> 
 <body>
-<div id="map"> </div> 
+<div id="map"><div id="feature"></div></div> 
 </body>
 </html>
