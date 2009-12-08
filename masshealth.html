@@ -7,15 +7,15 @@
         <script type="text/javascript">
          
         function showPopup(event) { 
-            console.log("selected feature");
-            console.log(event);
-            $('#feature').html("<p>" + event.feature.attributes.description + "</p>"); 
+            //console.log("selected feature");
+            //console.log(event);
+            $('#feature').html("<p>" + event.feature.attributes.description + "<br /><br />"+ event.map.getPixelFromLonLat(event.feature.geometry.getBounds().getCenterLonLat()) + "</p>").show(); 
         }; 
 
         function closePopup(event) {
-            console.log("feature unselect"); 
-            console.log(event);
-            $('#feature').html("");  
+            //console.log("feature unselect"); 
+            //console.log(event);
+            $('#feature').html("").hide();  
         }; 
 
          $(document).ready(function(){
@@ -41,13 +41,14 @@
             height: 500px; 
             width: 500px; 
             background: #eee ;
+            position: relative;
         } 
-        #feature {background: #eee;} 
+        #feature {background: #eee; position: absolute; z-index: 100000; width: 100%;ß} 
 
         </style>
    </head> 
 <body>
-<div id="map"> </div> 
-  <div id="feature"> </div>
+<div id="map"><div id="feature"> </div></div> 
+  
 </body>
 </html>

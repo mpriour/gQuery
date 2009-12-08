@@ -146,5 +146,13 @@ See documentation for more details
    } 
    
  };
+	$.fn.map.popup = function(options) {
+	    debug(this);
+	};
+	
+	$.fn.map.popup.format = function(txt) { // Allow overrides from outside the function
+	// do we want to also allow classnames to be passed in via options?
+	 return '<div class="gquery-popup">' + txt + '</div>';
+	};
 })(jQuery);
 
