@@ -128,13 +128,13 @@ See documentation for more details
    } 
    
    function showPopup(event) {
-       var mapObject = event.object.map ;
-       var pixel = mapObject.getPixelFromLonLat(event.feature.geometry.getBounds().getCenterLonLat()) ;
-       $('#feature').html($.fn.map.popupFormat("<p>" + event.feature.attributes.description + "</p>")).css({'top': pixel.x, 'left': pixel.y});
-       log(pixel); 
+       var pixel = map.getPixelFromLonLat(event.feature.geometry.getBounds().getCenterLonLat()) ;
+       var xy = event.feature.geometry.getBounds().getCenterLonLat(); 
+       $('#feature').html($.fn.map.popupFormat("<p>" + pixel +  " " + xy + "</p>")).css({'top': pixel.y, 'left': pixel.x});
    }; 
 
    function closePopup(event) {
+       $('#feature').html(""); 
        log(event); 
    };
  };
