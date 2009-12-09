@@ -41,94 +41,6 @@ See documentation for more details
 
     }
 
-    // kind of hacky.. but works
-    var div = this[0].id;
-    var map = new OpenLayers.Map(div, MapOptions);
-
-    //add base layer... what if they do not pick which layer 
-    if (typeof options.baselayer == 'object') {
-      var layer = options.baselayer;
-    } else {
-
-      if (options.baselayer == 'bluemarble') {
-        var layer = new OpenLayers.Layer.WMS("bluemarble", "http://maps.opengeo.org/geowebcache/service/wms", {
-          layers: 'bluemarble',
-          format: 'image/png'
-        },
-        {});
-      } else {
-        var layer = new OpenLayers.Layer.WMS("openstreetmap", "http://maps.opengeo.org/geowebcache/service/wms", {
-          layers: 'openstreetmap',
-          format: 'image/png'
-        },
-        {});
-      }
-    };
-
-    // we must add a background layer in openlayers... 
-    // so we have to end up with a layer.. ugh
-    map.addLayer(layer);
-
-    if (options.url != null) {
-      var fileURL = options.url;
-      name = "Vector Feature";
-
-      function getFormat() {
-        if (format == null) {
-          var format = new OpenLayers.Format.KML();
-        } else {
-          if (format == 'kml') {
-            var format = new OpenLayers.Format.KML();
-          }
-          if (format == 'geojson') {
-            var format = new OpenLayers.Format.GeoJSON();
-          }
-        };
-        return format;
-      };
-      var vectorFeature = new OpenLayers.Layer.Vector(name, {
-        projection: new OpenLayers.Projection("EPSG:4326"),
-        strategies: [new OpenLayers.Strategy.Fixed()],
-        protocol: new OpenLayers.Protocol.HTTP({
-          url: fileURL,
-          format: getFormat(),
-        })
-      });
-      map.addLayer(vectorFeature);
-      var selectCtrl = new OpenLayers.Control.SelectFeature(vectorFeature);
-
-      if (options.onClick != null) {
-        var onFeatureSelect = options.onClick;
-
-      }
-      if (options.onUnclick != null) {
-        var onFeatureUnselect = options.onUnclick;
-      };
-
-      vectorFeature.events.on({
-        "featureselected": onFeatureSelect,
-        "featureunselected": onFeatureUnselect
-      });
-
-      map.addControl(selectCtrl);
-      selectCtrl.activate();
-    }
-    if (options.center == null && options.extent == null) {
-      var Center = new OpenLayers.LonLat(0, 0);
-      Center.transform(map.displayProjection, map.projection);
-      map.setCenter(Center, options.zoomLevel);
-      log(Center);
-    } else if (options.center != null && options.extent == null) {
-      var Center = new OpenLayers.LonLat(options.center[0], options.center[1]);
-      Center.transform(map.displayProjection, map.projection);
-      map.setCenter(Center, options.zoomLevel);
-      log(Center);
-    } else if (options.center == null && options.extent != null) {
-      var Extent = new OpenLayers.Bounds(options.extent[0], options.extent[1], options.extent[2], options.extent[3]);
-      Extent.transform(map.displayProjection, map.projection);
-      map.zoomToExtent(Extent);
-    }
-
     function showPopup(event) {
       var mapObject = event.object.map;
       var pixel = mapObject.getPixelFromLonLat(event.feature.geometry.getBounds().getCenterLonLat());
@@ -148,14 +60,104 @@ See documentation for more details
       $('#feature').html("").hide();
       log(event);
     };
+
+		// Public formatting methods, to allow overrides from outside the function
+	  $.fn.map.popupFormat = function (feature, options) { 
+	    return '<div class="' + options.popupWrapClass + '"><div class="' + options.popupClass + '">' + "<p>" + feature.attributes.description + "</p>" + '</div></div>';
+	  };
+
+	  $.fn.map.closePopupFormat = function (options) {
+	    return '<div class="' + options.closerClass + '">x</div>';
+	  }
+
+		return this.each(function() {
+			// kind of hacky.. but works
+	    var div = $(this).attr('id');
+	    var map = new OpenLayers.Map(div, MapOptions);
+
+	    //add base layer... what if they do not pick which layer 
+	    if (typeof options.baselayer == 'object') {
+	      var layer = options.baselayer;
+	    } else {
+
+	      if (options.baselayer == 'bluemarble') {
+	        var layer = new OpenLayers.Layer.WMS("bluemarble", "http://maps.opengeo.org/geowebcache/service/wms", {
+	          layers: 'bluemarble',
+	          format: 'image/png'
+	        },
+	        {});
+	      } else {
+	        var layer = new OpenLayers.Layer.WMS("openstreetmap", "http://maps.opengeo.org/geowebcache/service/wms", {
+	          layers: 'openstreetmap',
+	          format: 'image/png'
+	        },
+	        {});
+	      }
+	    };
+
+	    // we must add a background layer in openlayers... 
+	    // so we have to end up with a layer.. ugh
+	    map.addLayer(layer);
+
+	    if (options.url != null) {
+	      var fileURL = options.url;
+	      name = "Vector Feature";
+
+	      function getFormat() {
+	        if (format == null) {
+	          var format = new OpenLayers.Format.KML();
+	        } else {
+	          if (format == 'kml') {
+	            var format = new OpenLayers.Format.KML();
+	          }
+	          if (format == 'geojson') {
+	            var format = new OpenLayers.Format.GeoJSON();
+	          }
+	        };
+	        return format;
+	      };
+	      var vectorFeature = new OpenLayers.Layer.Vector(name, {
+	        projection: new OpenLayers.Projection("EPSG:4326"),
+	        strategies: [new OpenLayers.Strategy.Fixed()],
+	        protocol: new OpenLayers.Protocol.HTTP({
+	          url: fileURL,
+	          format: getFormat(),
+	        })
+	      });
+	      map.addLayer(vectorFeature);
+	      var selectCtrl = new OpenLayers.Control.SelectFeature(vectorFeature);
+
+	      if (options.onClick != null) {
+	        var onFeatureSelect = options.onClick;
+
+	      }
+	      if (options.onUnclick != null) {
+	        var onFeatureUnselect = options.onUnclick;
+	      };
+
+	      vectorFeature.events.on({
+	        "featureselected": onFeatureSelect,
+	        "featureunselected": onFeatureUnselect
+	      });
+
+	      map.addControl(selectCtrl);
+	      selectCtrl.activate();
+	    }
+	    if (options.center == null && options.extent == null) {
+	      var Center = new OpenLayers.LonLat(0, 0);
+	      Center.transform(map.displayProjection, map.projection);
+	      map.setCenter(Center, options.zoomLevel);
+	      log(Center);
+	    } else if (options.center != null && options.extent == null) {
+	      var Center = new OpenLayers.LonLat(options.center[0], options.center[1]);
+	      Center.transform(map.displayProjection, map.projection);
+	      map.setCenter(Center, options.zoomLevel);
+	      log(Center);
+	    } else if (options.center == null && options.extent != null) {
+	      var Extent = new OpenLayers.Bounds(options.extent[0], options.extent[1], options.extent[2], options.extent[3]);
+	      Extent.transform(map.displayProjection, map.projection);
+	      map.zoomToExtent(Extent);
+	    }
+		});
   };
-
-  $.fn.map.popupFormat = function (feature, options) { // Allow overrides from outside the function
-    return '<div class="' + options.popupWrapClass + '"><div class="' + options.popupClass + '">' + "<p>" + feature.attributes.description + "</p>" + '</div></div>';
-  };
-
-  $.fn.map.closePopupFormat = function (options) { // Allow overrides from outside the function
-    return '<div class="' + options.closerClass + '">x</div>';
-  }
-
 })(jQuery);
