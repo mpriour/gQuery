@@ -48,13 +48,18 @@ See documentation for more details
       var closer = $($.fn.map.closePopupFormat(options)).click(function () {
         event.feature.unselect;
       });
-      $('#feature').css({
-        'top': pixel.y,
-        'left': pixel.x
-      }).html($.fn.map.popupFormat(event.feature, options)).show();
+			placePopup(pixel);
+      $('#feature').html($.fn.map.popupFormat(event.feature, options)).show();
       $('#feature .gquery-popup').prepend(closer);
       log(pixel);
     };
+
+		function placePopup(pixel) {
+			$('#feature').css({
+        'top': pixel.y,
+        'left': pixel.x
+      });
+		}
 
     function closePopup(event) {
       $('#feature').html("").hide();
@@ -74,6 +79,10 @@ See documentation for more details
 			// kind of hacky.. but works
 	    var div = $(this).attr('id');
 	    var map = new OpenLayers.Map(div, MapOptions);
+			map.events.on({
+			  movestart: function(){$('#feature').hide();},
+			  moveend: function(){/*placePopup(TODO: figure out how to access currently-selected feature);*/$('#feature').show();}
+			});
 
 	    //add base layer... what if they do not pick which layer 
 	    if (typeof options.baselayer == 'object') {
