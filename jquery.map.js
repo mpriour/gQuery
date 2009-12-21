@@ -29,7 +29,8 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
       },
       popupWrapClass: 'gquery-wrap',
       popupClass: 'gquery-popup',
-      closerClass: 'gquery-close'
+      closerClass: 'gquery-close',
+      featureID: 'feature'
     };
 
     options = $.extend(defaults, options);
@@ -61,20 +62,20 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
       });
       currentFeature = event.feature;
       placePopup(pixel);
-      $('#feature').html($.fn.map.popupFormat(event.feature, options)).show();
-      $('#feature .gquery-popup').prepend(closer);
+      $('#' + options.featureID).html($.fn.map.popupFormat(event.feature, options)).show();
+      $('#' + options.featureID + ' .' + options.popupClass).prepend(closer);
       log(pixel);
     }
 
     function placePopup(pixel) {
-      $('#feature').css({
+      $('#' + options.featureID).css({
         'top': pixel.y,
         'left': pixel.x
       });
     }
 
     function closePopup(event) {
-      $('#feature').html("").hide();
+      $('#' + options.featureID).html("").hide();
       log(event);
     }
 
@@ -93,13 +94,13 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
       var map = new OpenLayers.Map(div, MapOptions);
       map.events.on({
         movestart: function () {
-          $('#feature').hide();
+          $('#' + options.featureID).hide();
         },
         moveend: function () {
           if (currentFeature !== null) {
             placePopup(this.getPixelFromLonLat(currentFeature.geometry.getBounds().getCenterLonLat()));
           }
-          $('#feature').show();
+          $('#' + options.featureID).show();
         }
       });
 
