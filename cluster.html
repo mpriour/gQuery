@@ -1,0 +1,36 @@
+<html>
+    <head> 
+        <title>geoquery or gquery</title>
+        <script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+        <script type="text/javascript" src="OpenLayers.js"></script>
+        <script type="text/javascript" src="jquery.map.js"></script>        
+        <script type="text/javascript">
+        $(document).ready(function(){
+        
+        $('#map').map({
+                      'center': [-73,43],  
+                      'baselayer' : 'bluemarble', 
+                      'clustered': true,
+                      'url' : './requested.kml'}) ;   
+            });
+        /* 
+            
+        */
+        </script>
+        <style type="text/css">
+        #map {
+            margin: 5px auto ; 
+            height: 100%; 
+            width: 100%; 
+            background: #eee ;
+            position: relative;
+             }  
+        #feature {position: absolute; z-index: 100000; width: 100px; height: 100px;} 
+        .gquery-wrap {background: #eee;}
+        .gquery-close {float: right; color: #f00;}
+        </style>
+   </head> 
+<body>
+<div id="map"></div> <div id="feature"></div>
+</body>
+</html>

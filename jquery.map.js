@@ -30,7 +30,8 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
       popupWrapClass: 'gquery-wrap',
       popupClass: 'gquery-popup',
       closerClass: 'gquery-close',
-      featureID: 'feature'
+      featureID: 'feature',
+      clustered: false
     };
 
     options = $.extend(defaults, options);
@@ -81,7 +82,11 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
 
     // Public formatting methods, to allow overrides from outside the function
     $.fn.map.popupFormat = function (feature, options) {
-      return '<div class="' + options.popupWrapClass + '"><div class="' + options.popupClass + '">' + "<p>" + feature.attributes.description + "</p>" + '</div></div>';
+      if (options.clustered) {
+        return '<div class="' + options.popupWrapClass + '"><div class="' + options.popupClass + '">' + "<p>" + "clustered!" + "</p>" + '</div></div>';
+      } else {
+        return '<div class="' + options.popupWrapClass + '"><div class="' + options.popupClass + '">' + "<p>" + feature.attributes.description + "</p>" + '</div></div>';
+      }
     };
 
     $.fn.map.closePopupFormat = function (options) {
@@ -146,9 +151,15 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
         var fileURL = options.url;
         name = "Vector Feature";
 
+        // bbox might be a better default, no?
+        // -robianski
+        var vectorStrategies = [new OpenLayers.Strategy.Fixed()];
+        if (options.clustered) {
+            vectorStrategies.push(new OpenLayers.Strategy.Cluster());
+        }
         var vectorFeature = new OpenLayers.Layer.Vector(name, {
           projection: new OpenLayers.Projection("EPSG:4326"),
-          strategies: [new OpenLayers.Strategy.Fixed()],
+          strategies: vectorStrategies,
           protocol: new OpenLayers.Protocol.HTTP({
             url: fileURL,
             format: getFormat(options.format)
