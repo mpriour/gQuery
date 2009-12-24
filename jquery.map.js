@@ -83,7 +83,11 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
     // Public formatting methods, to allow overrides from outside the function
     $.fn.map.popupFormat = function (feature, options) {
       if (options.clustered) {
-        return '<div class="' + options.popupWrapClass + '"><div class="' + options.popupClass + '">' + "<p>" + "clustered!" + "</p>" + '</div></div>';
+        if (feature.cluster.length > 1) {
+          return '<div class="' + options.popupWrapClass + '"><div class="' + options.popupClass + '">' + "<p>cluster of " + feature.cluster.length + " features</p>" + '</div></div>';
+        } else {
+          return '<div class="' + options.popupWrapClass + '"><div class="' + options.popupClass + '">' + "<p>" + feature.cluster[0].attributes.description + "</p>" + '</div></div>';
+        }
       } else {
         return '<div class="' + options.popupWrapClass + '"><div class="' + options.popupClass + '">' + "<p>" + feature.attributes.description + "</p>" + '</div></div>';
       }
