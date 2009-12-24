@@ -159,16 +159,33 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
         // -robianski
         var vectorStrategies = [new OpenLayers.Strategy.Fixed()];
         if (options.clustered) {
-            vectorStrategies.push(new OpenLayers.Strategy.Cluster());
+            vectorStrategies.push();
         }
-        var vectorFeature = new OpenLayers.Layer.Vector(name, {
+        var vectorLayerOptions = {
           projection: new OpenLayers.Projection("EPSG:4326"),
           strategies: vectorStrategies,
           protocol: new OpenLayers.Protocol.HTTP({
             url: fileURL,
             format: getFormat(options.format)
           })
-        });
+        };
+        if (options.clustered) {
+            vectorLayerOptions.strategies.push(new OpenLayers.Strategy.Cluster());
+            var style = new OpenLayers.Style({
+                    pointRadius: "${radius}"
+                },
+                {context: {
+                        radius: function(feature) {
+                            return Math.min(feature.attributes.count, 8) + 5;
+                        }
+                    }
+                });
+            vectorLayerOptions.styleMap = new OpenLayers.StyleMap({
+                    "default": style
+            });
+        }
+        var vectorFeature = new OpenLayers.Layer.Vector(name,
+                                                        vectorLayerOptions);
 
         map.addLayer(vectorFeature);
         var selectCtrl = new OpenLayers.Control.SelectFeature(vectorFeature);
