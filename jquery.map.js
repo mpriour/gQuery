@@ -15,6 +15,7 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
       center: null,
       url: null,
       format: null,
+			externalGraphic: "http://fixcity.org/site_media/img/rack-icon.png",
       zoomLevel: 5,
       projection: 900913,
       displayProjection: 4326,
@@ -57,9 +58,8 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
     function showPopup(event) {
       var mapObject = event.object.map;
       var pixel = mapObject.getPixelFromLonLat(event.feature.geometry.getBounds().getCenterLonLat());
-      // TODO: determine how to properly trigger the unselect event for this feature when the closer is clicked
       var closer = $($.fn.map.closePopupFormat(options)).click(function () {
-        event.feature.unselect;
+				mapObject.controls[(mapObject.controls.length-1)].unselect(event.feature); //Can we always assume the last control added will be the one we need to unselect features? I suspect not.
       });
       currentFeature = event.feature;
       placePopup(pixel);
@@ -172,7 +172,8 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
         if (options.clustered) {
             vectorLayerOptions.strategies.push(new OpenLayers.Strategy.Cluster());
             var style = new OpenLayers.Style({
-                    pointRadius: "${radius}"
+                    pointRadius: "${radius}",
+										externalGraphic: options.externalGraphic
                 },
                 {context: {
                         radius: function(feature) {
