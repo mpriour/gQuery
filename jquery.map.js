@@ -8,14 +8,13 @@ See documentation for more details
 
 License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
 */
-
 (function ($) {
   $.fn.map = function (options) {
     var defaults = {
       center: null,
       url: null,
       format: null,
-			externalGraphic: "http://fixcity.org/site_media/img/rack-icon.png",
+      externalGraphic: null,
       zoomLevel: 5,
       projection: 900913,
       displayProjection: 4326,
@@ -59,7 +58,7 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
       var mapObject = event.object.map;
       var pixel = mapObject.getPixelFromLonLat(event.feature.geometry.getBounds().getCenterLonLat());
       var closer = $($.fn.map.closePopupFormat(options)).click(function () {
-				mapObject.controls[(mapObject.controls.length-1)].unselect(event.feature); //Can we always assume the last control added will be the one we need to unselect features? I suspect not.
+        mapObject.controls[(mapObject.controls.length-1)].unselect(event.feature); //Can we always assume the last control added will be the one we need to unselect features? I suspect not.
       });
       currentFeature = event.feature;
       placePopup(pixel);
@@ -169,11 +168,17 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
             format: getFormat(options.format)
           })
         };
+
+        var style = new OpenLayers.Style({
+                pointRadius: 5,
+                externalGraphic: options.externalGraphic
+            });
+
         if (options.clustered) {
             vectorLayerOptions.strategies.push(new OpenLayers.Strategy.Cluster());
-            var style = new OpenLayers.Style({
+            style = new OpenLayers.Style({
                     pointRadius: "${radius}",
-										externalGraphic: options.externalGraphic
+                    externalGraphic: options.externalGraphic
                 },
                 {context: {
                         radius: function(feature) {
@@ -181,10 +186,11 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
                         }
                     }
                 });
-            vectorLayerOptions.styleMap = new OpenLayers.StyleMap({
-                    "default": style
-            });
         }
+
+        vectorLayerOptions.styleMap = new OpenLayers.StyleMap({
+                "default": style
+        });
         var vectorFeature = new OpenLayers.Layer.Vector(name,
                                                         vectorLayerOptions);
 
