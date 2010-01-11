@@ -157,9 +157,6 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
         // bbox might be a better default, no?
         // -robianski
         var vectorStrategies = [new OpenLayers.Strategy.Fixed()];
-        if (options.clustered) {
-            vectorStrategies.push();
-        }
         var vectorLayerOptions = {
           projection: new OpenLayers.Projection("EPSG:4326"),
           strategies: vectorStrategies,
