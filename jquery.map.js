@@ -31,7 +31,8 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
       popupClass: 'gquery-popup',
       closerClass: 'gquery-close',
       featureID: 'feature',
-      clustered: false
+      clustered: false,
+      exposeMapGlobally: true
     };
 
     options = $.extend(defaults, options);
@@ -100,6 +101,11 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
       // kind of hacky.. but works
       var div = $(this).attr('id');
       var map = new OpenLayers.Map(div, MapOptions);
+      if (options.exposeMapGlobally) {
+        if (window) {
+          window.map = map;
+        }
+      }
       map.events.on({
         movestart: function () {
           $('#' + options.featureID).hide();
