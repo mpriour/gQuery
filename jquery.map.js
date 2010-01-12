@@ -85,13 +85,41 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
     $.fn.map.popupFormat = function (feature, options) {
       if (options.clustered) {
         if (feature.cluster.length > 1) {
-          return '<div class="' + options.popupWrapClass + '"><div class="' + options.popupClass + '">' + "<p>cluster of " + feature.cluster.length + " features</p>" + '</div></div>';
+            return $.fn.map.popupClusterFormat(feature, options);
         } else {
-          return '<div class="' + options.popupWrapClass + '"><div class="' + options.popupClass + '">' + "<p>" + feature.cluster[0].attributes.description + "</p>" + '</div></div>';
+            feature = feature.cluster[0];
         }
-      } else {
-        return '<div class="' + options.popupWrapClass + '"><div class="' + options.popupClass + '">' + "<p>" + feature.attributes.description + "</p>" + '</div></div>';
       }
+      return ($.fn.map.popupHeaderFormat(feature, options) +
+              $.fn.map.popupFeatureFormat(feature, options) +
+              $.fn.map.popupFooterFormat(feature, options));
+    };
+
+    $.fn.map.popupClusterFormat = function(feature, options) {
+        // display the format for a cluster
+        // feature represents a cluster of more than one feature
+        var firstFeature = feature.cluster[0];
+        return ($.fn.map.popupHeaderFormat(firstFeature, options) +
+                '<p>first feature in cluster</p>' +
+                $.fn.map.popupFeatureFormat(firstFeature, options) +
+                $.fn.map.popupFooterFormat(firstFeature, options));
+    }
+
+    $.fn.map.popupHeaderFormat = function(feature, options) {
+        // display the beginning html of the popup
+        return '<div class="' + options.popupWrapClass + '"><div class="' + options.popupClass + '">';
+    };
+
+    $.fn.map.popupFooterFormat = function(feature, options) {
+        // the end of the popup
+        return '</div></div>';
+    };
+
+    $.fn.map.popupFeatureFormat = function(feature, options) {
+        // display the html for a particular feature
+        // this feature is normalized, so it will have a consistent
+        // api if the feature is from a cluster or not
+        return '<p>' + feature.attributes.description + '</p>';
     };
 
     $.fn.map.closePopupFormat = function (options) {
