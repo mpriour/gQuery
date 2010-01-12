@@ -15,6 +15,7 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
       url: null,
       format: null,
       externalGraphic: null,
+      pointRadius: null,
       zoomLevel: 5,
       projection: 900913,
       displayProjection: 4326,
@@ -172,27 +173,51 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
           })
         };
 
-        var style = new OpenLayers.Style({
-                pointRadius: 5,
-                externalGraphic: options.externalGraphic
-            });
+        // these will be used for the creation of the style object
+        var style = {};
+        var context = {};
+
+        if (options.externalGraphic) {
+          if (typeof options.externalGraphic == "function") {
+              style.externalGraphic = "${externalGraphic}";
+              context.externalGraphic = options.externalGraphic;
+          } else {
+              style.externalGraphic = options.externalGraphic;
+          }
+        }
 
         if (options.clustered) {
             vectorLayerOptions.strategies.push(new OpenLayers.Strategy.Cluster());
-            style = new OpenLayers.Style({
-                    pointRadius: "${radius}",
-                    externalGraphic: options.externalGraphic
-                },
-                {context: {
-                        radius: function(feature) {
-                            return Math.min(feature.attributes.count, 8) + 5;
-                        }
-                    }
-                });
+            if (!options.pointRadius) {
+                var pointRadius = function(feature) {
+                    return Math.min(feature.attributes.count, 8) + 5;
+                };
+                context.pointRadius = pointRadius;
+                style.pointRadius = "${pointRadius}";
+            } else if (typeof options.pointRadius != "function") {
+                log('gquery: warning: setting the pointRadius for a cluster strategy to a constant value');
+                style.pointRadius = options.pointRadius;
+            } else {
+                style.pointRadius = "${pointRadius}";
+                context.pointRadius = options.pointRadius;
+            }
+        } else {
+            if (options.pointRadius) {
+                if (typeof options.pointRadius == "function") {
+                    style.pointRadius = "${pointRadius}";
+                    context.pointRadius = options.pointRadius;
+                } else {
+                    style.pointRadius = options.pointRadius;
+                }
+            } else {
+                // default pointRadius
+                // it's set to null in options default so that the cluster strategy can use a default clustering algorithm
+                style.pointRadius = 5;
+            }
         }
 
         vectorLayerOptions.styleMap = new OpenLayers.StyleMap({
-                "default": style
+                "default": new OpenLayers.Style(style, {context: context})
         });
         var vectorFeature = new OpenLayers.Layer.Vector(name,
                                                         vectorLayerOptions);
