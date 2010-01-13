@@ -30,6 +30,8 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
       },
       popupWrapClass: 'gquery-wrap',
       popupClass: 'gquery-popup',
+      popupClusterClass: 'gquery-popupClusterContainer',
+      popupClusterNavClass: 'gquery-popupClusterNav',
       closerClass: 'gquery-close',
       featureID: 'feature',
       clustered: false,
@@ -100,10 +102,55 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
         // feature represents a cluster of more than one feature
         var firstFeature = feature.cluster[0];
         return ($.fn.map.popupHeaderFormat(firstFeature, options) +
-                '<p>first feature in cluster</p>' +
+                '<div class="' + options.popupClusterClass + '">' +
                 $.fn.map.popupFeatureFormat(firstFeature, options) +
+                '</div>' +
+                $.fn.map.popupClusterNavFormat(feature, options) +
                 $.fn.map.popupFooterFormat(firstFeature, options));
-    }
+    };
+
+    $.fn.map.popupClusterNavFormat = function(feature, options) {
+        // feature represents the cluster of features to paginate through
+        // these are circular so they just loop around
+        var idx = 0;
+        //var _makeHandler = function(s, nextIdxFn) {
+        //    return function(e) {
+        //        e.preventDefault();
+        //        var container = $('.' + options.popupClusterClass);
+        //        if (container.length == 0) {
+        //            log('gquery: popupClusterNavFormat: could not find cluster feature container');
+        //            return;
+        //        }
+        //        idx = nextIdxFn();
+        //        container.empty();
+        //        container.append($.fn.map.popupFeatureFormat(feature.cluster[idx]));
+        //    };
+        //};
+        prevLink = $('.' + options.popupClusterNavClass + ' .gquery-prev');
+        nextLink = $('.' + options.popupClusterNavClass + ' .gquery-next');
+        //prevLink.live('click', _makeHandler('prev', function() { return (idx == feature.cluster.length-1) ? 0 : idx+1; }));
+        //nextLink.live('click', _makeHandler('next', function() { return (idx == 0) ? feature.cluster.length-1 : idx-1; }));
+        prevLink.live('click', function(e) {
+                e.preventDefault();
+                log('prev called');
+                idx = (idx == feature.cluster.length-1) ? 0 : idx+1;
+                var container = $('.' + options.popupClusterClass);
+                container.empty();
+                container.append($.fn.map.popupFeatureFormat(feature.cluster[idx]));
+            });
+        nextLink.live('click', function(e) {
+                e.preventDefault();
+                log('next called');
+                idx = (idx == 0) ? feature.cluster.length-1 : idx-1;
+                var container = $('.' + options.popupClusterClass);
+                container.empty();
+                container.append($.fn.map.popupFeatureFormat(feature.cluster[idx]));
+            });
+        // hardcoded prev/next classes
+        return ('<div class="' + options.popupClusterNavClass + '">' +
+                '<a href="#" class="gquery-prev">Prev</a>' +
+                '<a href="#" class="gquery-next">Next</a>');
+    };
 
     $.fn.map.popupHeaderFormat = function(feature, options) {
         // display the beginning html of the popup
