@@ -68,6 +68,7 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
       placePopup(pixel);
       $('#' + options.featureID).html($.fn.map.popupFormat(event.feature, options)).show();
       $('#' + options.featureID + ' .' + options.popupClass).prepend(closer);
+      $.fn.map.addPopupBehavior(event.feature, options, 0);
       log(pixel);
     }
 
@@ -110,43 +111,6 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
     };
 
     $.fn.map.popupClusterNavFormat = function(feature, options) {
-        // feature represents the cluster of features to paginate through
-        // these are circular so they just loop around
-        var idx = 0;
-        //var _makeHandler = function(s, nextIdxFn) {
-        //    return function(e) {
-        //        e.preventDefault();
-        //        var container = $('.' + options.popupClusterClass);
-        //        if (container.length == 0) {
-        //            log('gquery: popupClusterNavFormat: could not find cluster feature container');
-        //            return;
-        //        }
-        //        idx = nextIdxFn();
-        //        container.empty();
-        //        container.append($.fn.map.popupFeatureFormat(feature.cluster[idx]));
-        //    };
-        //};
-        prevLink = $('.' + options.popupClusterNavClass + ' .gquery-prev');
-        nextLink = $('.' + options.popupClusterNavClass + ' .gquery-next');
-        //prevLink.live('click', _makeHandler('prev', function() { return (idx == feature.cluster.length-1) ? 0 : idx+1; }));
-        //nextLink.live('click', _makeHandler('next', function() { return (idx == 0) ? feature.cluster.length-1 : idx-1; }));
-        prevLink.live('click', function(e) {
-                e.preventDefault();
-                log('prev called');
-                idx = (idx == feature.cluster.length-1) ? 0 : idx+1;
-                var container = $('.' + options.popupClusterClass);
-                container.empty();
-                container.append($.fn.map.popupFeatureFormat(feature.cluster[idx]));
-            });
-        nextLink.live('click', function(e) {
-                e.preventDefault();
-                log('next called');
-                idx = (idx == 0) ? feature.cluster.length-1 : idx-1;
-                var container = $('.' + options.popupClusterClass);
-                container.empty();
-                container.append($.fn.map.popupFeatureFormat(feature.cluster[idx]));
-            });
-        // hardcoded prev/next classes
         return ('<div class="' + options.popupClusterNavClass + '">' +
                 '<a href="#" class="gquery-prev">Prev</a>' +
                 '<a href="#" class="gquery-next">Next</a>');
@@ -171,6 +135,37 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
 
     $.fn.map.closePopupFormat = function (options) {
       return '<div class="' + options.closerClass + '">x</div>';
+    };
+
+    $.fn.map.addPopupBehavior = function(feature, options, idx) {
+        // attach any popup behavior to the feature
+        // in this implementation we add prev/next circular navigation
+        // to clusters
+        // idx represents the current feature in a cluster
+        if (options.clustered && feature.cluster.length > 1) {
+            var popupFeatureDiv = $('.' + options.popupClusterClass);
+            if (popupFeatureDiv.length == 0) return;
+            var nextLink = $('.gquery-next');
+            var prevLink = $('.gquery-prev');
+            if (nextLink.length == 0 || prevLink.length == 0) return;
+            var prevIdxFn = function(idx) { return (idx == 0) ? feature.cluster.length-1 : idx-1; };
+            var nextIdxFn = function(idx) { return (idx == feature.cluster.length-1) ? 0 : idx+1; };
+            var _makeHandler = function(idx, idxFn) {
+                return function(e) {
+                    e.preventDefault();
+                    var nextIdx = idxFn(idx);
+                    popupFeatureDiv.empty();
+                    var popupHtml = $.fn.map.popupFeatureFormat(feature.cluster[nextIdx]);
+                    popupFeatureDiv.append(popupHtml);
+                    prevLink.unbind('click');
+                    nextLink.unbind('click');
+                    prevLink.click(_makeHandler(nextIdx, prevIdxFn));
+                    nextLink.click(_makeHandler(nextIdx, nextIdxFn));
+                };
+            };
+            prevLink.click(_makeHandler(idx, prevIdxFn));
+            nextLink.click(_makeHandler(idx, nextIdxFn));
+        }
     };
 
     return this.each(function () {
