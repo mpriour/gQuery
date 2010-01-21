@@ -34,23 +34,89 @@ $(document).ready(function () {
         var n = feature.cluster.length;
         for (var i = 0; i < n; i++) {
           if (feature.cluster[i].attributes.verified == null) {
-            return "http://fixcity.org//site_media/img/rack-icon.png";
+            return "http://fixcity.org/site_media/img/rack-icon.png";
           }
         }
-        return "http://fixcity.org//site_media/img/rack-verified-icon.png";
+        return "http://fixcity.org/site_media/img/rack-verified-icon.png";
       } else if (feature.cluster[0].attributes.verified) {
-        return "http://fixcity.org//site_media/img/rack-verified-icon.png";
+        return "http://fixcity.org/site_media/img/rack-verified-icon.png";
       } else {
-        return "http://fixcity.org//site_media/img/rack-icon.png";
+        return "http://fixcity.org/site_media/img/rack-icon.png";
       }
+    },
+    popupFeatureFormat: function (feature, options) {
+      return '<div class="rack-info"><a href="/rack/' + feature.fid + '"><img src="' + ((feature.attributes.thumbnail != null) ? 'http://fixcity.org' + feature.attributes.thumbnail.value : 'http://fixcity.org/site_media/img/default-rack.jpg') + '" width="50" /></a><h3><a href="/rack/' + feature.fid + '">' + feature.attributes.name + '</a></h3><h4>' + feature.attributes.address + '</h4>' + ((feature.attributes.verified == null) ? '' : '<h5><em>verified</em></h5>') + ((feature.attributes.votes == null) ? '' : '<h5>' + feature.attributes.votes.value + ' votes</h5>')+ '</div>';
     }
   });
 });
 </script>
 <style type="text/css">
-#feature {position: absolute; z-index: 100000; width: 100px; height: 100px;} 
-.gquery-wrap {background: #eee;}
-.gquery-close {float: right; color: #f00;}
+#feature {position: absolute; z-index: 100000;} 
+.gquery-wrap {
+background: transparent url(http://fixcity.org/site_media/img/map-popup-bg.png) no-repeat;
+width: 292px;
+height: 78px;
+padding: 3px 15px 3px 3px;
+position: relative;
+left: -310px;
+top: -19px;
+}
+.gquery-popup {
+overflow: auto;
+height: 78px;
+width: 292px;
+font-size: 0.9em;
+}
+
+.gquery-close {
+float: right; 
+background: transparent url(http://fixcity.org/site_media/img/close.gif) no-repeat scroll 0 0;
+width: 12px;
+height: 12px;
+cursor: pointer;
+overflow: hidden;
+text-indent: -9999em;
+}
+
+.olPopup div div.rack-info img {
+display: block !important;
+}
+
+.gquery-popup img {
+width: 50px;
+float: left;
+}
+
+.gquery-popup h3 {
+color: #00b0f1;
+margin: 0 0 0.2em 55px;
+font-size: 1.1em;
+line-height:130%;
+}
+
+.gquery-popup h4 {
+color: #e69900;
+font-size: 1em;
+margin: 0 0 0.1em 55px;
+line-height:130%;
+}
+
+.gquery-popup h5 {
+color: #a5c665;
+padding: 2px 0 2px 19px;
+text-transform: uppercase;
+background: url(http://fixcity.org/site_media/img/tick.png) 0 50% no-repeat;
+font-size: 1em;
+margin: 0 0 0 55px;
+}
+
+.gquery-popup h5 em {
+font-style: normal;
+font-size: 0.7em;
+  }
+  
+
+#map-wrap {height:300px; position:relative;}
 </style>
 
 </head>
@@ -60,6 +126,7 @@ $(document).ready(function () {
     <div class="wrap">
       <span id="login"><a href="/accounts/register/?next=/">Register</a> | <a class="logstate" href="/accounts/login/?next=/">Log In</a></span>
   <a id="logo" href="/">Fixcity.org Bike Racks</a>
+
       <ul id="nav">
         <li><a id="add-rack" href="/rack/new/">Add a Rack</a></li>
 
@@ -81,7 +148,7 @@ $(document).ready(function () {
       <div id="content" class="content selfclear">
         
 <div id="home-main">
-  <div id="home-map"><div id="map-legend" class="pngfix"></div><div id="feature"></div></div>
+  <div id="map-wrap"><div id="home-map"><div id="map-legend" class="pngfix"></div></div><div id="feature"></div></div>
   <ul id="home-callouts" class="selfclear">
     <li id="spot-it"><h3><a href="/rack/new/">Spot It.</a></h3><p>Where do you want more bike racks? Examine the area for spots racks can fit in!</p></li>
 
