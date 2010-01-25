@@ -29,35 +29,19 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
       },
       popupWrapClass: 'gquery-wrap',
       popupClass: 'gquery-popup',
-      popupClusterClass: 'gquery-popupClusterContainer',
-      popupClusterNavClass: 'gquery-popupClusterNav',
+      popupClusterClass: 'gquery-cluster',
+      popupNavClass: 'gquery-nav',
+      popupNextClass: 'gquery-prev',
+      popupPrevClass: 'gquery-next',
       closerClass: 'gquery-close',
       popupFormat: function (feature, options) {
-        if (options.clustered) {
-          if (feature.cluster.length > 1) {
-            return options.popupClusterFormat(feature, options);
-          } else {
-            feature = feature.cluster[0];
-          }
-        }
-        return (options.popupHeaderFormat(feature, options) + options.popupFeatureFormat(feature, options) + options.popupFooterFormat(feature, options));
+        return '<div class="' + options.popupWrapClass + '"><div class="' + options.popupClass + '">' + options.popupFeatureFormat(feature, options) + '</div></div>';
       },
       popupClusterFormat: function (feature, options) {
-        // display the format for a cluster
-        // feature represents a cluster of more than one feature
-        var firstFeature = feature.cluster[0];
-        return (options.popupHeaderFormat(firstFeature, options) + '<div class="' + options.popupClusterClass + '">' + options.popupFeatureFormat(firstFeature, options) + '</div>' + options.popupClusterNavFormat(feature, options) + options.popupFooterFormat(firstFeature, options));
+        return '<div class="' + options.popupWrapClass + '"><div class="' + options.popupClass + '">' + options.popupFeatureFormat(feature, options) + options.popupNav(feature, options) + '</div></div>';
       },
-      popupClusterNavFormat: function (feature, options) {
-        return ('<div class="' + options.popupClusterNavClass + '">' + '<a href="#" class="gquery-prev">Prev</a>' + '<a href="#" class="gquery-next">Next</a></div>');
-      },
-      popupHeaderFormat: function (feature, options) {
-        // display the beginning html of the popup
-        return '<div class="' + options.popupWrapClass + '"><div class="' + options.popupClass + '">';
-      },
-      popupFooterFormat: function (feature, options) {
-        // the end of the popup
-        return '</div></div>';
+      popupNav: function (feature, options) {
+        return ('<div class="' + options.popupNavClass + '">' + '<a href="#" class="' + options.popupPrevClass + '">Prev</a>' + '<a href="#" class="' + options.popupNextClass + '">Next</a></div>');
       },
       popupFeatureFormat: function (feature, options) {
         // display the html for a particular feature
@@ -77,7 +61,6 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
 
     var currentFeature = null;
     var layer = null;
-
     var MapOptions = {
       resolutions: options.resolutions,
       projection: new OpenLayers.Projection("EPSG:" + options.projection),
@@ -90,7 +73,6 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
       if (window.console && window.console.log) {
         console.log(error);
       }
-
     }
 
     function showPopup(event) {
@@ -101,10 +83,21 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
       });
       currentFeature = event.feature;
       placePopup(pixel);
-      $('#' + options.featureID).html(options.popupFormat(event.feature, options)).show();
+      $('#' + options.featureID).html(popupContents(event.feature, options)).show();
       $('#' + options.featureID + ' .' + options.popupClass).prepend(closer);
       addPopupBehavior(event.feature, options, 0);
       log(pixel);
+    }
+
+    function popupContents(feature, options) {
+      if (options.clustered) {
+        if (feature.cluster.length > 1) {
+          return options.popupClusterFormat(feature.cluster[0], options);
+        } else {
+          feature = feature.cluster[0]; // normalize feature for one-item clusters
+        }
+      }
+      return (options.popupFormat(feature, options));
     }
 
     function placePopup(pixel) {
@@ -163,7 +156,6 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
           window.map = map;
         }
       }
-
       map.events.on({
         movestart: function () {
           $('#' + options.featureID).hide();
@@ -175,7 +167,6 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
           $('#' + options.featureID).show();
         }
       });
-
       //add base layer... what if they do not pick which layer 
       if (typeof options.baselayer == 'object') {
         layer = options.baselayer;
@@ -211,11 +202,9 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
       // we must add a background layer in openlayers... 
       // so we have to end up with a layer.. ugh
       map.addLayer(layer);
-
       if (options.url !== null) {
         var fileURL = options.url;
         name = "Vector Feature";
-
         // bbox might be a better default, no?
         // -robianski
         var vectorStrategies = [new OpenLayers.Strategy.Fixed()];
@@ -227,11 +216,9 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
             format: getFormat(options.format)
           })
         };
-
         // these will be used for the creation of the style object
         var style = {};
         var context = {};
-
         if (options.externalGraphic) {
           if (typeof options.externalGraphic == "function") {
             style.externalGraphic = "${externalGraphic}";
@@ -277,19 +264,15 @@ License: GPL 3 http://www.gnu.org/licenses/gpl-3.0.html
           })
         });
         var vectorFeature = new OpenLayers.Layer.Vector(name, vectorLayerOptions);
-
         map.addLayer(vectorFeature);
         var selectCtrl = new OpenLayers.Control.SelectFeature(vectorFeature);
-
         vectorFeature.events.on({
           "featureselected": options.onClick,
           "featureunselected": options.onUnclick
         });
-
         map.addControl(selectCtrl);
         selectCtrl.activate();
       }
-
       if (options.center == null && options.extent == null) {
         var Center = new OpenLayers.LonLat(0, 0);
         Center.transform(map.displayProjection, map.projection);
