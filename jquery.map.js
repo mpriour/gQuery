@@ -1,6 +1,6 @@
 /* 
 GeoQuery
-Ivan Willig, Chris Patterson
+Ivan Willig, Chris Patterson, Robert Marianski
 
 basic map usage 
 $('#map').map({}); 
