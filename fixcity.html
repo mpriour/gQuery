@@ -45,8 +45,9 @@ $(document).ready(function () {
       }
     },
     popupFeatureFormat: function (feature, options) {
-      return '<div class="rack-info"><a href="/rack/' + feature.fid + '"><img src="' + ((feature.attributes.thumbnail != null) ? 'http://fixcity.org' + feature.attributes.thumbnail.value : 'http://fixcity.org/site_media/img/default-rack.jpg') + '" width="50" /></a><h3><a href="/rack/' + feature.fid + '">' + feature.attributes.name + '</a></h3><h4>' + feature.attributes.address + '</h4>' + ((feature.attributes.verified == null) ? '' : '<h5><em>verified</em></h5>') + ((feature.attributes.votes == null) ? '' : '<h5>' + feature.attributes.votes.value + ' votes</h5>')+ '</div>';
-    }
+      return '<div class="popup-rack-info"><a href="/rack/' + feature.fid + '"><img src="' + ((feature.attributes.thumbnail != null) ? 'http://fixcity.org' + feature.attributes.thumbnail.value : 'http://fixcity.org/site_media/img/default-rack.jpg') + '" width="50" /></a><h3><a href="/rack/' + feature.fid + '">' + feature.attributes.name + '</a></h3><h4>' + feature.attributes.address + '</h4>' + ((feature.attributes.verified == null) ? '' : '<h5><em>verified</em></h5>') + ((feature.attributes.votes == null) ? '' : '<h5>' + feature.attributes.votes.value + ' votes</h5>')+ '</div>';
+    },
+    popupClusterClass: 'popup-rack-info'
   });
 });
 </script>
